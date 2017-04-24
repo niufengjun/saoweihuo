@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>果瓣欢迎您！</title>
+    <link rel="stylesheet" type="text/css" href="css/other_public.css" />
+    <link rel="stylesheet" type="text/css" href="css/account.css"/>
+    <script src="js/common.js"></script> 
+    <script src="js/change_mobile.js"></script>
+    <script src="js/address.js"></script>
+    <script src="js/account_main.js"></script>
+    <script src="js/company_info.js"></script>
+    <script src="js/identity.js"></script>
+</head>
+<body>
+        <!-- 导航栏开始 -->
+   <div class="nav_all">
+	   	<div class="nav">
+	   	   <ul>
+		   		<span>您好 欢迎来到果瓣！</span>
+		   	   	<li>请<a href="login-index.html">登录</a></li>
+		   	   	<li><a href="register.html">免费注册</a></li>
+	   	   </ul>
+	   	   <ol>
+		   	   	<span><a href="#">关于我们</a></span>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">个人中心</a></li>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">我的进货单</a></li>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">首页</a></li>
+	   	   </ol>
+	   	</div>
+   </div><!-- 导航栏结束 -->
+   <!-- 红色头部开始 -->
+   <div class="lo_head">
+   		<div class="lo_main">
+   			<ul>
+   				<li><a href="#"><img src="img/head_logo.png"/></a></li>
+   				<li>|&nbsp;</li>
+   				<li>个人中心</li>
+   				<li class="buyer customer customer_active">我是采购商</li>
+   				<li class="supplier customer">我是供应商</li>
+   			</ul>
+   		</div>
+   </div>
+   <!-- 红色头部结束 -->
+   <!-- 中部主体部分开始 -->
+   <div class="lo_main_bg">
+   		<!-- 自动居中盒子开始 -->
+   		<div class="lo_menu">
+   			<div class="lo_left">
+   				<!-- 菜单栏部分 -->
+		   		<ul>
+		   			<li><img src="img/search.png"/><a href="#">交易管理</a>
+		   				<ul>
+		   					<li>订单管理</li>
+		   				</ul>
+		   			</li>
+		   			<li class="account_menu" id="account_index"><img src="img/search.png"/><a href="#">账号管理</a>
+		   				<ul id="account_menu">
+		   					<li id="perfect_info">完善信息</li>
+		   					<li><a href="#" id="reset_password">重置密码</a></li>
+		   					<li id="address_li">收货地址</li>
+		   					<li id="change_mobile">更换手机号码</a></li>
+		   					<li id="identity_li">认证信息</a></li>
+		   				</ul>
+		   			</li>
+		   		</ul><!-- 菜单栏结束 -->
+   			</div>
+	   		<!-- 右部详细部分开始 -->
+	   		<div class="lo_right" id="lo_right">
+		   			<!-- 完善信息开始 -->
+				<div class="company_new" id="company_new">
+					<div class="company_head"><!--里面上部分公司信息标题-->
+						<p>公司信息</p>
+					</div>
+					<div class="company_body"><!--里面除标题以外的公司信息全部内容-->
+						<ul>
+							<li id="shop_name"><!--店铺名称栏-->
+								<span class="item">
+									<p>
+										<span class="color">*</span>
+								    	<span>公司/店铺名称:</span>
+									</p>
+								</span>
+								<span class="center">上海好未来有限公司</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="shop_link"><!--店铺链接栏-->
+								<span class="item">
+									<p>
+										<span class="color">*</span>
+								    	<span>公司/店铺链接:</span>
+									</p>
+								</span>
+								<span class="center" id="color">www.saohuo7.com</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="person_name"><!--联系人姓名栏-->
+								<span class="item">
+									<p>
+										<span class="color">*</span>
+								    	<span>联系人姓名:</span>
+									</p>
+								</span>
+								<span class="center">小明</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="person_number"><!--联系人电话栏-->
+								<span class="item">
+									<p>
+										<span class="color">*</span>
+								   		<span>联系人电话:</span>
+									</p>
+								</span>
+								<span class="center bold">——</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="mailbox"><!--邮箱栏-->
+								<span class="mailbox item"><p>邮箱:</p></span>
+								<span class="center bold">——</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="wechat"><!--微信栏-->
+								<span class="wechat item"><p>微信:</p></span>
+								<span class="center bold">——</span>
+								<span class="amend">修改</span>
+							</li>
+							<li id="qq"><!--QQ栏-->
+								<span class="qq item"><p>QQ:</p></span>
+								<span class="center bold">——</span>
+								<span class="amend">修改</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 完善信息结束 -->
+	   			<!--待办事项开始-->
+				<div class="wait_todo" id="wait_todo">
+					<!--待办事项标题-->
+					<div class="wait_title">待办事项</div>
+					<div class="redister_person">
+						<p>完善个人信息，提高交易信誉。</p><a href="#">去完善</a>
+					</div>
+					<!--待办事项内容-->
+					<div class="wait_content">
+						<ul>
+							<li>
+								<a href="#">
+									<span><img src="img/wait_payment.png" alt="" /></span>
+									<p>待付款</p>
+									<p class="wait_number">(10)</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span><img src="img/wait_send.png" alt="" /></span>
+									<p>待发货</p>
+									<p class="wait_number">(10)</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span><img src="img/wait_receiving.png" alt="" /></span>
+									<p>待收货</p>
+									<p class="wait_number">(10)</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span><img src="img/wait_finish.png" alt="" /></span>
+									<p>已完成</p>
+									<p class="wait_number">(10)</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--待办事项结束-->
+				<!-- 收货地址开始 -->
+				<div class="receive_address" id="receive_address">
+					<div class="receive_title">
+						<ul>
+							<li>收货地址</li>
+							<li><a href="javascript:;" id="new_address">+新建地址</a></li>
+						</ul>
+					</div>
+					<div class="receive_man">
+						<ul>
+							<li class="receive_human">收货人</li>
+							<li class="detail_address">详细地址</li>
+							<li class="link_phone">联系电话</li>
+							<li class="operation">操作</li>
+						</ul>
+					</div>
+					<div id="address_content">
+						
+					</div>
+				</div>
+				<!-- 收货地址结束 -->
+	   			<!--更换手机号码部分开始-->
+				<div class="content">
+					<!--更换手机号码标题-->
+					<div class="content_title">更换手机号码</div>
+					<!--注册手机信息块-->
+					<div class="main_content">
+						<div class="mian_form">
+							<form>
+								<ul>
+									<li class="fist_item">
+										<span><i>*</i>手机号码:</span>
+										<p>138****2345</p>
+		
+									</li>
+									<li class="second_item">
+										<span><i>*</i>验证码:</span>
+										<input type="text" name="" id="" value="" />
+										<p id="security-code"></p>
+									</li>
+									<li class="three_item">
+										<span><i>*</i>短信验证码:</span>
+										<input type="text" name="" id="" value="" />
+										<div class="get_code">获取验证码</div>
+									</li>
+									<li>
+										<a href="#" class="sub_next">下一步</a>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!--注册手机信息块结束-->
+				<!--新手机号码开始-->
+				<div class="content">
+					<!--更换手机号码标题-->
+					<div class="content_title">更换手机号码</div>
+					<!--注册手机信息块-->
+					<div class="main_content">
+						<div class="mian_form">
+							<form>
+								<ul>
+									<li class="fist_item">
+										<span><i>*</i>新手机号码:</span>
+										<input type="text" id="phone_number"/>
+		
+									</li>
+									<li class="second_item">
+										<span><i>*</i>验证码:</span>
+										<input type="text" name="" id="" value="" />
+										<p id="security-code"></p>
+									</li>
+									<li class="three_item">
+										<span><i>*</i>短信验证码:</span>
+										<input type="text" name="" id="" value="" />
+										<div class="get_code">获取验证码</div>
+									</li>
+									<li>
+										<a href="#" class="sub_next">下一步</a>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!--新手机号码结束-->
+			    <!--手机号码更换成功-->
+				<div class="content">
+					<!--更换手机标题-->
+					<div class="content_title">更换手机号码</div>
+					<!--成功-->
+					<div class="main_content">
+						<div class="mian_form">
+							<div class="change_succeed">
+								<span><img src="img/complete.png"/></span><p>手机号码更换成功!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		    <!--手机号码更换成功  更换号码部分全部结束-->
+		    <div class="real_name_all" id="identity_index">
+	   		    <div class="real_name">实名认证</div>
+		    	<form>
+		    		<div class="show_result" id="show_result">实名认证审核失败！ 原因： 营业执照图片看不清，请重新修改</div>
+		   		    <div class="name_message">
+		   		    	1.实名认证账号信息
+		   		    </div>
+		   		       <!-- 我是 -->
+		   		    <div class="mine">
+		   		    	<span>*</span> 我是：
+		   		    	<div class="radio">	
+		   		    	    <input type="radio" name="one" checked class="identity_type">公司
+		   		    	    <input type="radio" name="one" class="left identity_type">个人
+		   		    	</div>
+		   		    	<!-- 企业名称 -->
+		   		    </div>
+		   		    <div class="inport_all">
+		   		    	<span>*</span><span id="user_type">企业名称：</span>
+		   		    	<input type="text" id="input_name">
+		   		    </div>
+		   		    <!-- 营业执照 -->
+		   		    <div class="upload_all" id="business_license">
+		   		    	<span>*</span>营业执照：
+		   		    	<div class="upload">
+		   		    		<div class="picture">
+	                        	<img src=""/>
+	                        	<input type="file" style="width: 0; height: 0;" id="up_pic"/>
+		   		    		</div>
+		   		    		<span class="up_btn">上传</span>
+		   		    		<p>图片格式支持JPG/GIF/PNG格式，大小1M以内</p>
+		   		    	</div>
+		   		    </div>
+		   		      <!-- 食品许可证 -->
+		   		    <div class="upload_all">
+		   		    	<span>*</span>食品流通许可证：
+		   		    	<div class="upload">
+		   		    		<div class="picture">
+		   		    			<img src=""/>
+		   		    		</div>
+		   		    		<span class="up_btn">上传</span>
+		   		    		<p>图片格式支持JPG/GIF/PNG格式，大小1M以内</p>
+		   		    	</div>
+		   		    </div>
+		   		    <!-- 法人姓名 -->
+		   		    <div class="inport_all" id="main_name">
+		   		    	<span>*</span>法人姓名：
+		   		    	<input type="text" id="user_name">
+		   		    </div>
+		   		    <!-- 法人身份证 -->
+		   		    <div class="upload_all">
+		   		    	<span>*</span><span id="ID_yes">法人身份证正面：</span>
+		   		    	<div class="upload">
+		   		    		<div class="picture">
+		   		    			<img src=""/>
+		   		    		</div>
+		   		    		<span class="up_btn">上传</span>
+		   		    		<p>图片格式支持JPG/GIF/PNG格式，大小1M以内</p>
+		   		    	</div>
+		   		    </div>
+		   		    <div class="upload_all">
+		   		    	<span>*</span><span id="ID_no">法人身份证反面：</span>
+		   		    	<div class="upload">
+		   		    		<div class="picture">
+		   		    			<img src=""/>
+		   		    		</div>
+		   		    		<span class="up_btn">上传</span>
+		   		    		<p>图片格式支持JPG/GIF/PNG格式，大小1M以内</p>
+		   		    	</div>
+		   		    </div>
+		   		    <!-- 银行账号信息开始 -->
+		   		    <div class="name_message">
+		   		    	2.银行账号信息
+		   		    </div>
+		   		    <div class="inport_all">
+		   		    	<span>*</span>选择开户行：
+		   		    	<select id="bank_name">
+		   		    		<option value="中国农业银行">中国农业银行</option>
+		   		    		<option value="中国建设银行">中国建设银行</option>
+		   		    		<option value="中国工商银行">中国工商银行</option>
+		   		    	</select>
+		   		    </div>
+		   		    <div class="inport_all">
+		   		    	<span>*</span>开户银行全称：
+		   		    	<input type="text" class="import_two" id="detail_bank">
+		   		    </div>
+		   		    <div class="inport_all">
+		   		    	<span>*</span>银行账号：
+		   		    	<input type="text" id="bank_number">
+		   		    </div>
+		   		    <div class="inport_all">
+		   		    	<span>*</span>开户人姓名：
+		   		    	<input type="text" class="import_one" id="open_name">
+		   		    </div>
+		   		    <input type="button" value="确认" class="yes" id="sure_submit">
+	   		    </form>	
+		    </div>	   
+		    <div id="identity_tip">
+		    	<a href="javascript:;" id="identity_close">x</a>
+		    	<img src="img/complete.png"/>
+		    	<span>
+		    		<p class="success_title">实名认证提交成功！</p>
+		    		<p>果瓣工作人员会在1-2个工作日内完成审核，请耐心等待。</p>
+		    	</span>
+		    </div>
+   		    <!-- 银行账号信息结束-->
+		    <!-- 实名认证成功开始 -->
+			<div id="success_identity">
+				<div class="certification_head"><!--里面上部分实名认证标题-->
+					<p>实名认证</p>
+				</div>
+				<div class="certification_body"><!--除大标题以外的实名认证全部内容-->
+					<p class="cbody_title" id="title_result">实名认证成功</p>
+					<div class="detail_content"><!--酒红色中标题下面的全部内容-->
+						<span class="name_info">1.实名认证账号信息</span><!--实名认证小标题1-->
+						<ul>
+							<li><!--企业名称一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>企业名称:</p>
+								</span>
+								<p id="campany_name">上海好未来有限公司</p>
+							</li>
+							<li class="img"><!--营业执照一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>营业执照:</p>
+								</span>
+								<img src="img/certification_img.png" alt="" id="charter"/>
+							</li>
+							<li class="img"><!--食品流通许可证一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>食品流通许可证:</p>
+								</span>
+								<img src="img/certification_img.png" alt="" id="license"/>
+							</li>
+							<li><!--法人一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>法人:</p>
+								</span>
+								<p>小太阳</p>
+							</li>
+							<li class="img"><!--法人身份证正面照一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>法人身份证正面照:</p>
+								</span>
+								<img src="img/certification_img.png" alt="" id="status_positive"/>
+							</li>
+							<li class="img"><!--法人身份证背面照一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>法人身份证背面照:</p>
+								</span>
+								<img src="img/certification_img.png" alt="" id="status_negative"/>
+							</li>
+						</ul>
+						<span class="bank_info">2.银行账号信息</span><!--实名认证小标题2-->
+						<ul>
+							<li><!--选择开户行一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>选择开户行:</p>
+								</span>
+								<p id="bank">中国工商银行</p>
+							</li>
+							<li><!--开户银行全称一栏-->
+								<span class="item	">
+									<p class="symbol">*</p>
+									<p>开户银行全称:</p>
+								</span>
+								<p id="bank_full">中国工商银行东方路支行</p>
+							</li>
+							<li><!--银行账号一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>银行账号:</p>
+								</span>
+								<p id="bank_account">27189382993048292038293</p>
+							</li>
+							<li><!--开户人姓名一栏-->
+								<span class="item">
+									<p class="symbol">*</p>
+									<p>开户人姓名:</p>
+								</span>
+								<p id="account_host">小太阳</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 实名认证成功结束 -->
+		    
+	   		</div><!-- 右部详细部分结束-->
+   		</div> <!-- 自动居中盒子结束 -->		   		
+   </div>
+   <!-- 中部主体结束 -->
+   <!-- 收货地址中 增加或者删除地址DIV开始 -->
+   <div class="add_or_delete" id="add_or_delete">
+   		<div class="delete_operation" id="delete_data"><!-- 删除地址开始 -->
+   			<a href="javascript:;" title="关闭">x</a>
+   			<p>确定删除吗？</p>
+   			<input type="button" value="删除"/>
+   			<input type="button" value="取消"/>
+   		</div><!-- 删除地址结束 -->
+   		<div class="add_operation" id="add_data"><!-- 增加地址开始 -->
+   			<a href="javascript:;" title="关闭" id="close_add">x</a>
+   			<form>
+   				<ul>
+   					<li class="addFirstLi"><span>收货人：<input type="text" id="add_user"/></span><span class="mobile_span">手机号码：<input type="text" maxlength="11" id="add_mobile"/></span></li>
+   					<li class="addSecondLi"><span id="add_allArea">所在地区：
+	   						<select name="big_aera" id="">
+	   							<option value="" selected="selected"></option>
+	   							<option value="贵州省">贵州省</option>
+	   						</select>
+	   						<select name="middle_aera" id="">
+	   							<option value="" selected="selected"></option>
+	   							<option value="贵阳市">贵阳市</option>
+	   						</select>
+	   						<select name="small_aera" id="">
+	   							<option value="" selected="selected"></option>
+	   							<option value="乌当区">乌当区</option>
+	   						</select>
+   						</span>
+   					</li>
+   					<li class="addLastLi"><span><span>详细地址：</span><textarea name="detail_address" id="add_address"></textarea></span></li>
+   				</ul>
+   				<ul id="sure_btn">
+   					<li>
+   						<img src="img/Check.png" id="changeImg"/><span id="set_default">设为默认</span>
+   					</li>
+   					<li><input type="button" value="保存" id="add_sure"/><a href="javascript:;" id="not_sure">取消</a></li>
+   				</ul>
+   			</form>
+   		</div><!-- 增加地址结束 -->
+   </div>
+   <!-- 收货地址中 增加或者删除地址DIV结束 -->
+   <!--服务块内容-->
+	<div class="serve_bar">
+		<div class="serve">
+			<!--服务选项内容-->
+			<div class="service">
+				<ul class="service_list">
+					<li class="service_item">
+						<span><img src="img/certification.png" alt="" /></span>
+						<a href="#">实名认证</a>
+						<p>真实身份，更有保障</p>
+					</li>
+					<li class="service_item">
+						<span><img src="img/gold.png" alt="" /></span>
+						<a href="#">金牌供应商</a>
+						<p>优质货源，更值得信赖</p>
+					</li>
+					<li class="service_item">
+						<span><img src="img/link.png" alt="" /></span>
+						<a href="#">专业匹配供应</a>
+						<p>免费帮你找到最好的货源</p>
+					</li>
+					<li class="service_item">
+						<span><img src="img/focus.png" alt="" /></span>
+						<a href="#">专注尾货供应链</a>
+						<p>成本和效率的最佳解决方案</p>
+					</li>
+				</ul>
+			</div>
+			<!--帮助流程样式-->
+			<div class="help">
+				<!--底部Logo-->
+				<div class="help_logo">
+					<a href="#"><img src="img/logo2.png" alt="" /></a>
+					<h2>果瓣</h2>
+					<p>专注快消尾货供应</p>
+				</div>
+				<!--帮助列表-->
+				<div class="help_list">
+					<dl>
+						<dt>
+							<span>新手入门</span>
+						</dt>
+						<dd>
+							<a href="#">注册登录</a>
+							<a href="#">实名认证</a>
+							<a href="#">用户协议</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<span>帮助中心</span>
+						</dt>
+						<dd>
+							<a href="#">常见问题</a>
+							<a href="#">支付方式</a>
+							<a href="#">违规处罚</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<span>招商合作</span>
+						</dt>
+						<dd>
+							<a href="#">关于我们</a>
+							<a href="#">供货商招募</a>
+							<a href="#">联系我们</a>
+						</dd>
+					</dl>
+				</div>
+				<!--联系方式-->
+				<div class="relation">
+					<span>客服热线： 400-1234-5678</span>
+					<span>合作邮箱： ABC@saohuo7.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--页面底部内容-->
+	<div class="footer_bar">
+		<div class="footer">
+			Copyright @ 2017 saohuo7.com .All Rights Reserved 扫货版权所有  <a href="http://www.miitbeian.gov.cn/" class="footer_num">沪ICP14045987号</a>
+		</div>
+	</div>
+	<!-- 底部结束 -->
+</body>
+</html>

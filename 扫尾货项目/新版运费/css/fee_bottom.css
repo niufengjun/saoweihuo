@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym,address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt,var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,tfoot,thead,tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header,hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{/*清除默认样式*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ul ,ol , li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input{
+	outline:none;
+}
+body {
+  font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+  overflow-x: hidden;
+}
+    
+
+ /*按钮跳转样式开始*/ 
+   .liu_buttons{
+           height: 40px;
+           width: 1000px;
+           margin: 0 auto;
+           position: relative;
+           top:20px;
+           
+   }
+   #liu_button{
+   	height: 30px;
+   	width:620px;
+   	margin: 0 auto;
+ 
+   }
+   #liu_button span{
+    float: left;
+   	height: 30px;
+   	width:30px;
+   	line-height: 30px;
+    text-align: center;
+   	margin-left:10px;
+   	cursor:pointer;
+   	border:1px solid gray;
+   }
+   .liu_button1{
+   	float: left;
+   }
+   .liu_buttons button{
+   	height: 30px;
+   	color:gray;
+   	margin-left:10px;
+   }
+   .liu_buttons button:hover{
+   	color: #000;
+   }
+   .input{
+   	width:50px;
+   	height:26px;
+   }
+   .liu_none{
+   	border: none;
+   	background-color: #fff;
+   }
+   .on{
+   	background-color:#e21918 ;
+   }
+
+
+
+/*底部服务区块样式*/
+.serve_bar {
+	width: 100%;
+	height: 240px;
+	position: relative;
+}
+
+.serve_bar .serve {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*服务选项样式*/
+.serve_bar .service {
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+
+.serve_bar .service .service_list {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+
+.serve_bar .service .service_list .service_item {
+	float: left;
+	width: 230px;
+	height: 50px;
+	position: relative;
+	margin-left: 18px;
+}
+
+ .serve_bar .service .service_list .service_item span {
+ 	position: absolute;
+ 	width: 40px;
+ 	height: 38px;
+ 	left:1px;
+ 	top: 50%;
+ 	margin-top: -25px;
+ }
+
+.service .service_list .service_item span.gold{
+	height: 46px;
+	width: 38px;
+}
+
+ .service_item span img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ .serve_bar .service .service_list .service_item a {
+ 	position: absolute;
+ 	left: 45px;
+ 	top: 0;
+ 	color: #444;
+ 	font-size: 18px;
+ }
+
+
+ .serve_bar .service .service_list .service_item p {
+ 	position: absolute;
+ 	left: 45px;
+ 	bottom: 0;
+ 	color: #838383;
+ 	font-size: 14px;
+ }
+ 
+ /*帮助流程样式*/
+.help {
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+
+.help .help_logo {
+    float: left;
+	width: 240px;
+	position: relative;
+}
+
+.help .help_logo a{
+	width: 120px;
+	height: 120px;
+}
+
+.help .help_logo h2 {
+	position: absolute;
+	left:50px;
+	top: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.help .help_logo p {
+	position: absolute;
+	left:30px;
+	top:  60px;
+	font-size: 14px;
+}
+.help .help_logo p a{
+	color:#8b8b8b;
+}
+.help .help_logo p a:hover{
+	color: #e21918;
+}
+.help .help_list {
+	float: left;
+	width: 538px;
+	height: 110px;
+	margin-left: 220px;
+	padding-top: 10px;
+}
+
+.help .help_list dl {
+	float: left;
+	width: 118px;
+	padding-left: 50px;
+}
+
+.help .help_list dl dt {
+	color: #000000;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.help .help_list dl dd a {
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 20px;
+	display: block;
+}
+
+.help .help_list dl dd a:hover , .footer_bar .footer .footer_num:hover {
+	color: #e21918;
+}
+
+.help .relation {
+	float: right;
+	margin-top: 20px;
+	position: relative;
+	right: 20px;
+}
+
+.help .relation span{
+	display: block;
+	line-height: 30px;
+	color: #000000;
+	height: 30px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.help .relation span {
+	display: block;
+}
+/*页面底部样式*/
+.footer_bar {
+	width: 100%;
+	height: 76px;
+	position: relative;
+	background: #010101;
+	overflow: hidden;
+}
+
+.footer_bar .footer {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 36px;
+	color: #b0b0b0;
+	font-size: 14px;
+}
+
+.footer_bar .footer .footer_num {
+	color: #b0b0b0;
+	display: inline-block;
+}
+/*页面底部样式结束*/
+

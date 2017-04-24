@@ -1,0 +1,52 @@
+
+            /*完善信息开始*/
+.middle_all {
+   height:412px;
+   width:1200px;
+   margin: 0 auto;
+   position:relative;
+   font-weight: bold;
+   color: #E21918;
+}
+.middle {
+	height: 50px;
+	width:250px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+.middle span {
+	float: left;
+	font-size: 25px;
+	line-height: 50px;
+	padding-left:15px;
+}
+.middle img {
+	float: left;
+}
+.btn {
+	height:50px;
+	width: 350px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left:100px;
+}
+.btn a {
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.btn a.back {
+	background-color: #E21918;
+	color:#fff;
+	border: none;
+}
+.btn a.go {
+	background-color: black;
+	color:#fff;
+	border: none;
+	position: relative;
+	left: 40px;
+}
+    /*完善信息结束*/

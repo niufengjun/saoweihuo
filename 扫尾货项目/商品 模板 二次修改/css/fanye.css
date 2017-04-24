@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.button_bg{
+	width: 1000px;
+	margin:0 auto;
+    background-color: rgb(245,245,245);
+	margin-bottom:50px;
+	margin-top: 50px;  
+}
+
+.buttons{
+	
+	height: 30px;
+	width: 650px;
+	position: relative;
+	left: 331px;	
+}
+
+.buttons button{
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	background-color: #fff;
+	border: 1px #ccc solid;
+	border-radius: 2px;
+}
+
+.buttons span{
+	float: left;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 2px;
+	border: 1px #ccc solid;
+
+	cursor: pointer;
+}
+.buttons .width{
+	width: 60px;
+}
+.buttons .on1{
+	float: left;
+}
+.buttons .none{
+    width: 60px;
+    border:none;
+}
+.input{
+	width: 25px;
+	height: 30px;
+	position: relative;
+	top: -1px;
+}
+
+.buttons .on{
+	background-color:#da0000;
+	color: #fff;
+}
+
+#prev{
+	position: relative;
+	height: 32px;
+	cursor: pointer;
+}
+
+#next{
+	position: relative;
+	color: #333;
+	height: 32px;
+	cursor: pointer;
+}
+
+#ok{
+	position: relative;
+	cursor: pointer;
+}
+
+#input{
+	position: relative;
+	height: 25px;
+	padding-left: 25px;
+	border-radius: 2px;
+	border: none;
+	border: 1px #ccc solid;
+}
+
+

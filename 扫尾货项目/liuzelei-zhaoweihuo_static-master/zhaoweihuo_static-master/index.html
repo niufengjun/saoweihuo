@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品</title>
+		<script type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="css/CommodityHomePage.css" />
+		<script src="js/HomePage.js"></script>
+	</head>
+	<body>
+		<div class="navigation">
+			<div class="nav">
+				<div class="nav_left">
+					<span>您好 欢迎来到果瓣！</span>
+					<span class="login">请<a href="login-index.html">登录</a></span>
+					<span class="reg"><a href="register.html">注册</a></span>
+				</div>
+				<div class="nav_right">
+					<ul>
+						<li><a href="javascript:;">首页</a></li>
+						<li><a href="javascript:;">我的进货单</a></li>
+						<li><a href="javascript:;">采购商中心</a></li>
+						<li><a href="javascript:;">供应商中心</a></li>
+						<li class="nav_right_only"><a href="javascript:;">关于我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>		
+		<div class="GBlogo">
+			<div class="logo_pic">
+				<a href="javascript:;"><img src="img/index_top_logo.png"/></a>
+			</div>
+			<div class="search">
+				<input type="text" value="" class="input_box" />
+				<input type="submit" value="" class="sub" />
+			</div>
+		</div>
+		<div class="chm_box">
+  			<div class="chm_boxcenter">
+  				<div class="chm_alter">
+  					<ul>
+  						<li class="first_li"><img src="img/li.png">所有分类
+  							<ul >
+  								<li><a href="#">一级类目</a></li>
+  								<li><a href="#">二级类目</a></li>
+  							</ul>
+  						</li>
+  						<li><a href="#">首页</a></li>
+  						<li><a href="#">品牌馆</a></li>
+  						<li><a href="#">招募供应商</a></li>
+  					</ul>
+  				</div>
+  				<div class="chm_fenmulu">
+  					<ul>
+  						<li>首页 </li>
+  						<li><h2 class="left">&gt;</h2>一级类目</li>
+  						<li><h2 class="left">&gt;</h2> 二级类目</li>
+  					</ul>
+  				</div>
+  			</div>
+  		</div>
+		<!--商品排序背景-->
+		<div class="Dg_Sort_Bg">
+			<!--商品排序列-->
+			<div class="Dg_Sort_Column">
+				<ul>
+					<li>排序：</li>
+					<li>
+						<h3>更新时间</h3>
+						<div class="Dg_Sort_DropDown">
+							<a>本周更新</a>
+							<a>本月更新</a>
+							<a>本年更新</a>
+							<a>其它</a>
+						</div>
+					</li>
+					<li>
+						<h3>价格</h3>
+						<div class="Dg_Sort_DropDown">
+							<a>正序</a>
+							<a>倒序</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--商品排序列结束-->
+			<!--商品内容排序-->
+			<div class="Dg_Commodity_Sort">
+				<ul id="Dg_Content_Sort"></ul>
+				<!-- 底部点击事件 -->
+				<div class="yw_displayPage_footer">
+				<div class="yw_page" id="Previous_Page">上一页</div>
+					<div>
+						<ol id="Dg_Click_Event"></ol>
+					</div>
+					<div class="yw_page" id="Next_Page">下一页</div>
+					<div class="addpage">共<span id="Dg_Page">1</span>页&nbsp;&nbsp;&nbsp;&nbsp;到第&nbsp;&nbsp;<input  class="page_input" type="text" id="Page">&nbsp;&nbsp;页</div>
+					<div>
+						<input class="page_botton" type="button" value="确定" id="Dg_Btn">
+					</div>
+				</div>
+				<!-- 固定块 -->
+				<div class="yw_fixed">
+					<a class="first_a" href=""><img width="55" height="55" src="img/cart.png" alt=""></a>
+					<a href=""><img width="55" height="55" src="img/totop.png" alt=""></a>
+				</div>
+			</div>
+			<!--商品内容排序结束-->
+		</div>
+		<!--商品排序背景结束-->
+		<!--商品列表单底部部分-->
+    	<div class="LFY_bottom" id="bottom">
+    		<div class="LFY_sub_bottom" id="sub_bottom">
+    			<!--商品列表单底部上半部分-->
+    			<div class="LFY_up" id="up">
+    				<ul>
+    					<li>
+    						<a href="#">
+    							<span><img src="img/certification.png"/></span>
+    							<span class="LFY_blackfont">实名认证</span>
+    							<span class="LFY_grayfont">真实身份，更有保障</span>
+    						</a>
+    					</li>
+    					<li>
+    						<a href="#">
+    							<span><img src="img/gold.png"/></span>
+    							<span class="LFY_blackfont">金牌供应商</span>
+    							<span class="LFY_grayfont">优质货源，更值得信赖</span>
+    						</a>
+    					</li>
+    					<li>
+    						<a href="#">
+    							<span><img src="img/link.png"/></span>
+    							<span class="LFY_blackfont">专业匹配供应</span>
+    							<span class="LFY_grayfont">免费帮您找到最好的货源</span>
+    						</a>
+    					</li>
+    					<li>
+    						<a href="#">
+    							<span><img src="img/focus.png"/></span>
+    							<span class="LFY_blackfont">专注尾货供应链</span>
+    							<span class="LFY_grayfont">成本和效率的最佳解决方案</span>
+    						</a>
+    					</li>
+    				</ul>
+    			</div>
+    			<!--商品列表单底部下半部分-->
+    			<div class="LFY_down" id="LFY_down">
+    				<div class="LFY_sub_left">
+    					<li>LOGO</li>
+    					<span>果瓣</span>
+    					<p>专注快消尾货供应</p>
+    				</div>
+    				<ul>
+    					<li>
+    						<a class="LFY_freshman"><span>新手入门</span></a>
+    						<a href="#"><span>注册登录</span></a>
+    						<a href="#"><span>实名认证</span></a>
+    						<a href="#"><span>用户协议</span></a>
+    					</li>
+    					<li>
+    						<a class="LFY_freshman"><span>帮助中心</span></a>
+    						<a href="#"><span>常见问题</span></a>
+    						<a href="#"><span>支付方式</span></a>
+    						<a href="#"><span>违规处罚</span></a>
+    					</li>
+    					<li>
+    						<a class="LFY_freshman"><span>招商合作</span></a>
+    						<a href="#"><span>关于我们</span></a>
+    						<a href="#"><span>供货商招募</span></a>
+    						<a href="#"><span>联系我们</span></a>
+    					</li>
+    				</ul>
+    				<div class="LFY_sub_right">
+    					<span>客服热线：400-1234-5678</span>
+    					<span>合作邮箱：ABC@saohuo7.com</span>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!--最下面黑色部分-->
+    	<div class="LFY_foot">
+    		<div class="LFY_sub_foot">
+    			<span>Copyright&nbsp;@&nbsp;saohuo7.com.All&nbsp;Right&nbsp;Reserved&nbsp;扫货版权所有&nbsp;泸ICP140459778号</span>
+    		</div>
+    	</div>
+	</body>
+</html>

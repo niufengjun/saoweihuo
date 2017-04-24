@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运费模板</title>
+    <link rel="stylesheet" type="text/css" href="css/carriage.css" />
+    <link rel="stylesheet" type="text/css" href="css/fee_bottom.css">
+  
+    <script type="text/javascript" src="js/freight.js"></script>
+
+    
+</head>
+
+<body>
+<!-- 选择是否删除 弹框部分 -->
+<div id="mask">
+  <div id="pop_up">
+    <span id="close_all">×</span>
+    <div class="zhanghide">确定要删除该运费模板吗？</div>
+    <div id="sure">确定</div>
+    <div id="cancel">取消</div>
+  </div>
+</div>
+
+    <!-- 导航栏开始 -->
+<div class="nav_all">
+         <div class="nav">
+            <ul>
+               <span>您好 欢迎来到找尾贷网！</span>
+                  <li><a href="">13917093349</a></li>
+                  <li><a href="">退出</a></li>
+            </ul>
+            <ol>
+                  <span><a href="#">关于我们</a></span>
+                  <li>|</li>
+                  <li><a href="#">个人中心</a></li>
+                  <li>|</li>
+                  <li><a href="#">我的进货单</a></li>
+                  <li>|</li>
+                  <li><a href="#">首页</a></li>
+            </ol>
+         </div>
+</div><!-- 导航栏结束 -->
+
+   <!-- 二级导航条开始 -->
+   <div class="zhangzhengguospace">
+      <div class="space">
+         <a href=""><h3>找尾货</h3></a>
+         <a href=""><h4 class="veryical_line">|</h4></a>
+         <a href=""><h4> 个人中心</h4></a>
+         <div class="procurement"><a href="">我是采购商</a></div>
+         <div class="provision"><a href="">我是供应商</a></div>
+      </div>
+   </div>
+   <!-- 二级导航条结束 -->
+
+<!-- 中间部分开始 -->
+<div class="center_box">
+      <div class="center_all">
+         <!-- 左边开始 -->
+          <div class="center_left">
+            
+               <ul id="cl_ul">
+                  <li>
+                     <a href="">
+                     <img src="img/yyyyyukkk.png"><p class="p">交易管理</p>
+                     </a>
+                  </li>
+
+                     <li class="underline">
+                        <a href=""><p class="p_">订单管理</p></a>
+                     </li>
+
+                     <li>
+                     <a href="">
+                     <img src="img/pupuio.png"><p class="p">商品管理</p>
+                     </a>
+                    </li>
+
+                    <li>
+                        <a href=""><p class="p_">商品管理</p></a>
+                    </li>
+
+                    <li class="underline">
+                        <a href=""><p class="p_">添加商品</p></a>
+                    </li>
+
+                     <li>
+                     <!-- <a href=""> -->
+                     <img src="img/yyyyjjjj.png"><p class="p">运费模板</p>
+                     <!-- </a> -->
+                    </li>
+
+                     <li class="underline" >
+                        <a href="javascript:;"><p class="p_" id="magges">运费模板管理</p></a>
+                    </li>
+
+                    <li>
+                     <a href="">
+                     <img src="img/ppppyyyt.png"><p class="p">资金管理</p>
+                     </a>
+                    </li>
+
+                    <li>
+                        <a href=""><p class="p_">收入管理</p></a>
+                    </li>
+
+                    <li>
+                        <a href=""><p class="p_">交易记录</p></a>
+                    </li>
+
+                      <li class="underline">
+                        <a href=""><p class="p_">保证金管理</p></a>
+                    </li>
+
+                     <li>
+                     <a href="">
+                     <img src="img/pupuio.png"><p class="p">账号管理</p>
+                     </a>
+                    </li>
+
+                    <li>
+                        <a href=""><p class="p_">认证信息</p></a>
+                    </li>
+
+                    <li>
+                        <a href=""><p class="p_">重置密码</p></a>
+                    </li>
+
+                      <li class="underline">
+                        <a href=""><p class="p_">更换手机号</p></a>
+                    </li>
+               </ul>            
+          </div>
+         <!-- 左边结束 -->
+
+
+         <!-- 右边开始 -->
+<!--模板管理 显示列表开始-->
+<div class="right_list" id='right_list'>
+        <div class="back">
+               <p >运费模版</p> 
+               <span ><a href="javascript:;" id="add">+新增运费模板</a></span>              
+        </div>
+        <div class="namess">
+            <span >编号</span>
+            <p >名称</p>
+            <p class="mables">操作</p>
+        </div>
+
+        <div id="BOX"></div>
+</div>
+<!--模板管理显示列表结束-->
+
+<!-- 设置 新增运费模版开始部分 -->
+<div class="liu_manage" id="set_save">
+                <div>
+                   <p><span>新增运费模版</span></p>
+                </div>
+
+                  <!-- 地址信息栏开始部分 -->
+  <div class="liu_address">
+                     <ul id="liu_warm">
+                      <li>
+                         <span>*</span>
+                         <span>运费模版名称:</span>
+                         <input type="text" name="text1" id="input_name" />
+                      </li>
+
+
+                      <li>
+                        <span>*</span>
+                        <span>发货地区:</span>
+                        <select id="cmbProvince"></select>
+                        <select id="cmbCity"></select>
+                        <select id="cmbArea"></select>
+                      </li>
+
+                      <li>
+                        <span>*</span>
+                        <span>发货时间:</span>
+                        <span id="liu_pay">付款后
+                        <input type="text" class="input_1 heavy bulk" name="text2"/>
+                        天</span>
+                      </li>
+
+                      <li>
+                        <span>*</span>
+                        <span>计价方式:</span>
+                        <form class="liu_choose">
+                        <input type="radio" checked="checked"  name="way" value="按重量运费" id="liu_weight"/>
+                        <span>按重量运费</span>
+                        <input type="radio" name="way" value="按体积" id="liu_tiji"/>
+                        <span>按体积</span>
+                      </li>
+                       
+                       <!-- 如何选择收费标准开始 -->
+                      <!-- 按体积收费的开始部分 -->
+                    
+                      <li class="liu_tiji" id="liu_block">
+                        <span></span>
+                        <span>默认收费:
+                        <input type="text" value="" name="text3" class="bulk">m³以内,</span>
+                        <span>
+                        <input type="text" value="" name="text4" class="bulk">元, 每增加</span>
+                        <span>
+                        <input type="text" value="" name="text5" class="bulk"></span>
+                        <span>m³, 增加运费
+                        <input type="text" value="" name="text6" class="bulk">元。</span>
+                        </li><!-- 按体积收费的结束部分 -->
+
+                        <!-- 按重量收费开始部分 -->
+                      <li id="liu_weight1">
+                        <span></span>
+                        <span>默认收费:
+                        <input type="text" value="" name="text7" class="heavy">kg以内,</span>
+                        <span>
+                        <input type="text" value="" name="text8" class="heavy">元, 每增加</span>
+                        <span>
+                        <input type="text" value="" name="text9" class="heavy"></span>
+                        <span>kg, 增加运费
+                        <input type="text" value="" name="text10" class="heavy">元。</span>
+                      </li>
+                    
+                      <!-- 按重量收费结束部分 -->
+                       <!-- 如何选择收费标准结束 -->
+                     </ul> 
+                   <!-- 地址信息栏结束部分 -->
+                     <!-- 错误提示 -->
+                     <span id="hint"></span>
+                     <a href="javascript:;" id="save_button" >保存</a>
+
+                     <div id="liu_tanbox">
+                        <span class="liu_tangou">√</span>
+                        <span>运费模板设置成功！</span>
+                     </div>
+               </div>            
+</div>
+<!-- 设置 新增运费模版结束部分 -->
+
+
+<!-- 空白模板 -->
+<div class="center_right" id="addition">
+
+        <div class="backlog">
+               <p >运费模版</p> 
+               <span ><a href="javascript:;" id="addition_sub">+新增运费模板</a></span>              
+        </div>
+        <div class="names">
+            <span >编号</span>
+            <p >名称</p>
+            <p class="mable">操作</p>
+        </div>
+
+
+        <div class="bigbox" id="bigbox"><!--  -->            
+            <div class="mukuai_kong">
+               <p class="kong" id="kong">运费模版为空</p>   
+           </div>
+        </div>     
+</div>
+<!-- 空白模板 -->
+
+
+   
+</div>
+   <!-- 中间部分结束 -->
+</div>
+
+<!--服务块内容-->
+<div class="serve_bar">
+      <div class="serve">
+         <!--服务选项内容-->
+         <div class="service">
+            <ul class="service_list">
+               <li class="service_item">
+                  <span><img src="img/certi.png" alt="" /></span>
+                  <a href="#">实名认证</a>
+                  <p>真实身份，更有保障</p>
+               </li>
+               <li class="service_item">
+                  <span class="gold"><img src="img/gold1.png" alt="" /></span>
+                  <a href="#">金牌供应商</a>
+                  <p>优质货源，更值得信赖</p>
+               </li>
+               <li class="service_item">
+                  <span><img src="img/focusbox.png" alt="" /></span>
+                  <a href="#">专业匹配供应</a>
+                  <p>免费帮你找到最好的货源</p>
+               </li>
+               <li class="service_item">
+                  <span><img src="img/box.png" alt="" /></span>
+                  <a href="#">专注尾货供应链</a>
+                  <p>成本和效率的最佳解决方案</p>
+               </li>
+            </ul>
+         </div>
+         <!--帮助流程样式-->
+         <div class="help">
+            <!--底部Logo-->
+            <div class="help_logo">
+               <h2>找尾货</h2>
+               <p><a href="#">专注快消尾货供应</a></p>
+            </div>
+            <!--帮助列表-->
+            <div class="help_list">
+               <dl>
+                  <dt>
+                     <span>新手入门</span>
+                  </dt>
+                  <dd>
+                     <a href="#">注册登录</a>
+                     <a href="#">实名认证</a>
+                     <a href="#">用户协议</a>
+                  </dd>
+               </dl>
+               <dl>
+                  <dt>
+                     <span>帮助中心</span>
+                  </dt>
+                  <dd>
+                     <a href="#">常见问题</a>
+                     <a href="#">支付方式</a>
+                     <a href="#">违规处罚</a>
+                  </dd>
+               </dl>
+               <dl>
+                  <dt>
+                     <span>招商合作</span>
+                  </dt>
+                  <dd>
+                     <a href="#">关于我们</a>
+                     <a href="#">供货商招募</a>
+                     <a href="#">联系我们</a>
+                  </dd>
+               </dl>
+            </div>
+            <!--联系方式-->
+            <div class="relation">
+               <span>客户热线: 400-821-5297</span>
+               <span>合作邮箱: lhuang@saohuo7.com</span>
+               <span>商务合作: leo@saohuo7.com</span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--页面底部内容-->
+   <div class="footer_bar">
+      <div class="footer">
+         Copyright @ 2017 saohuo7.com .All Rights Reserved 扫货版权所有  <a href="http://www.miitbeian.gov.cn/" class="footer_num">沪ICP14045987号</a>
+      </div>
+   </div>
+   <!-- 底部结束 -->
+  
+
+</body>
+</html>

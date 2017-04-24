@@ -1,0 +1,440 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym,address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt,var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,tfoot,thead,tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header,hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{/*清除默认样式*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ul ,ol , li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input{
+	outline:none;
+}
+body {
+  font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+  overflow-x: hidden;
+}
+/*..................果瓣logo部分.......................*/
+.GBlogo{
+  width: 1000px;
+  height:45px;
+  margin:45px auto 0;
+}
+.GBlogo .logo_pic{
+  width:146px;
+  height:46px;
+  float:left;
+}
+.GBlogo .search{
+  width:600px;
+  height:45px;
+  float:right;
+  position: relative;
+  margin-right:15px;
+}
+.GBlogo .search .input_box{
+  width:530px;
+  height:41px;
+  border:2px solid #aaa;
+}
+.GBlogo .search .sub{
+  width:75px;
+  height:46px;
+  background:url(../img/search.png) no-repeat center;
+  background-color:#000;
+  border:none;
+  position:absolute;
+  top:0px;
+  right:-8px;
+  cursor: pointer;
+}
+/*顶部*/
+.tiger{
+  width: 1000px;
+  height: 150px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+   margin:45px auto 0;
+}
+.tiger .people{
+  margin: 0 auto;
+  width: 1000px;
+  height: 150px;
+  position: relative;
+}
+.tiger .people .prow{
+  width: 120px;
+  height: 120px;
+  background-image: url(../img/tigger.png);
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  background-size: cover;
+}
+.tiger .people .green{
+  width: 600px;
+  height: 120px;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+.tiger .people .green .row{
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+}
+.tiger .people .green .row .onit{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    color: #3B3B3B;
+}
+.tiger .people .green .row .dian{
+  font-size: 22px;
+  font-family: '微软雅黑';
+}
+.tiger .people .green .ren{
+  width: 200px;
+  height: 20px;
+  margin-top: 2px;
+}
+.tiger .people .green .ren ul li{
+  width: 75px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+  background-color: #CB393D;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.tiger .people .green .ren ul li a{
+  color: #fff;
+  font-size: 13px;
+}
+.tiger .people .green .ren .jiao{
+  background-color: #3977CB;
+}
+.tiger .people .green .four{
+  width: 600px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.tiger .people .green .four a{
+  color: #969696;
+  font-size: 14px;
+  font-family: '黑体';
+  font-weight: bold;
+}
+/*shop部分*/
+ .box-shop {
+  width: 1000px;
+  height:950px;
+  margin:0 auto;
+  /*border:1px solid #ccc;*/
+  margin-top: 30px;
+}
+ .box-shop-top{
+   height:37px;
+   line-height: 37px;
+   background-color:#fcfcfc; 
+   border-top: 1px solid  rgb(221, 221, 221);
+   border-right: 1px solid  rgb(221, 221, 221);
+   border-left: 1px solid  rgb(221, 221, 221);
+   margin-top: -30px;
+ }
+ .box-shop-top ul li{
+    background-color:#fcfcfc; 
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+    height:37px;
+    float: left;
+    cursor: pointer;
+ }
+ .bottom{
+  border-top: 1px solid  rgb(221, 221, 221);
+ }
+ .bottom .btn{
+  width:100%;
+  color: #cb363a;
+  border-bottom: 1px solid #cb363a;
+  display: none;
+}
+#btn_1{
+  color: #cb363a;
+  border-bottom: 1px solid #cb363a;
+}
+.bottom .show {
+  height:800px;
+  width:900px;
+  display: block;
+}
+.bottom .show .lis{
+  width: 1000px;
+  height: 30px;
+  border:1px solid rgb(221, 221, 221);;
+}
+.bottom .show .lis ul{
+  list-style: none;
+}
+.bottom .show .lis ul li{
+  width: 60px;
+  height: 30px;
+  /*border:1px solid gray;*/
+  border-right: 1px solid rgb(221, 221, 221);
+  float: left;
+  line-height: 30px;
+   text-align: center;
+}
+.bottom .show .lis ul li a{
+  color: black;
+}
+.show-tow{
+  border:1px  solid rgb(221, 221, 221);
+  border-top: none;
+}
+.show-tow p{
+  margin-top: 10px;
+}
+/*货物商品内容样式*/
+.Dg_Commodity_Sort{
+  height:890px;
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+}
+.Dg_Commodity_Sort ul{
+  position:relative;
+  margin-top:20px;
+}
+.Dg_Commodity_Sort ul li{
+  position:absolute;
+  padding:0 13px;
+  width:200px;
+  height:353px;
+  background-color:#fff;
+}
+.Dg_Commodity_Sort ul li span{
+  display: block;
+  font-size: 15px;
+  line-height:25px;
+}
+
+/*货物商品JS内容样式*/
+.Dg_Sort_Img{
+  display: block;
+  height:203px;
+  padding:17px 0 20px;
+  margin:0 auto;
+}
+.Dg_Span_left{
+  font-weight: bold;
+  color:#CD3D41;
+}
+.Dg_Span_left,.Dg_Img_left,.Dg_Span_B{
+  float: left;
+}
+.Dg_Span_right,.Dg_Img_right{
+  float:right
+}
+.Dg_Span_P{
+  padding:0 0 7px ;
+  clear: both;
+}
+.Dg_Img_right,.Dg_Img_left{
+  width:25px;
+  height:25px;
+}
+.Dg_Img_right{
+  border-radius:50%;
+}
+/*货物商品JS内容样式结束*/
+
+/*底部footer*/
+  .yw_displayPage_footer{
+    width:650px;
+    height: 70px;
+    padding:40px 0 0 430px;
+    position: absolute;
+    bottom: 0px;
+
+  }
+  .yw_displayPage_footer div{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #ccc;
+  }
+  .yw_displayPage_footer .yw_page{
+    width:70px;
+    height:30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin:0 15px;
+
+  }
+  .yw_displayPage_footer .page_input{
+    display: inline-block;
+    width:45px;
+    height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .yw_displayPage_footer ol li{
+    float: left;
+    width:30px;
+    height:30px;
+    margin:0 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color:#313031;
+    outline: none;
+    line-height:30px;
+  }
+  .yw_displayPage_footer .page_botton{
+    width:45px;
+    height:28px;
+    font-size:13px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    line-height: 28px;
+    text-align:center;
+    margin-left:10px;
+    background-color:#fff;
+    position: relative;
+    top:2px;
+  }
+.show-tow{
+  display: none;
+}
+.views{
+  display: block;
+  width:890px;
+  height:400px;
+  padding-top:7px;
+  background: #fff;
+  padding-left: 10px;
+  overflow: hidden; 
+}
+
+.views h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+.views p{
+  color:gray;
+  font-size: 14px;
+}
+.book{
+  width:800px;
+  height:220px;
+  list-style: none;
+  padding:0;
+}
+.book li{
+  float: left;
+  width:216px;
+  margin-right: 10px;
+  height:216px;
+  border:1px solid #ddd;
+}
+
+
+.bottom_one{
+  width: 1000px;
+  height: 100px;
+  margin:0 auto;
+  /*border: 1px solid red;*/
+  /*border-bottom: 2px solid gray;*/
+}
+.bottom_one ul{
+  list-style: none;
+}
+.bottom_one ul li{
+  float: left;
+  width: 225px;
+  height: 30px;
+/*  border: 1px solid red;*/
+  margin-top: 33px;
+}
+.bottom_one ul li img{
+  float: left;
+  margin-top: 3px;
+}
+.bottom_one ul li span{
+  float: left;
+  margin-left: 10px;
+}
+.bottom_one ul li p{
+  font-size: 12px;
+  color: gray;
+}
+.sudoku{  
+  position: relative;
+}
+.sub_div{
+  background-color: #fff;
+  width: 215px;
+  height: 300px;
+  position: absolute;
+            
+}
+.image{
+  margin-left: 30px;
+  width: 70%;
+  height: 60%;
+  margin-top: 10px;
+  float: left;
+}
+
+.paging{
+      height: 50px;
+      width: 1000px;
+}
+#paging_box{
+  height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-top: 620px;
+  /*border:1px solid red;*/ 
+}
+#paging_box .press_btn{
+ height: 30px;
+ width: 60px;
+}
+#paging_box button{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#paging_box input{
+  height: 20px;
+  width: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#paging_box .ensure{
+  height: 20px;
+  width: 50px;
+}
+#paging_ensure{
+ height: 30px;
+ width: 550px;
+ float:right;
+}

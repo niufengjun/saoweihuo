@@ -1,0 +1,493 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+	width:100%;
+  height: 100%; 
+ }
+/*LOGO部分*/
+.logo{
+	width: 1000px;
+	height: 45px;
+	margin:0 auto;
+  margin-top: 45px;
+	position: relative;
+}
+.logo .lg{
+	display: inline-block;
+	width: 200px;
+	height:45px;
+	float: left;
+  position: relative;
+}
+.logo .lg img{
+	display:block;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.logo .search{
+	display: inline-block;
+	float:right;
+	width:600px;
+	height: 45px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	border:1px solid #929292;
+}
+.logo .search .text{		  
+	width: 525px;
+	height: 41px;
+	float: left; 
+
+}
+.logo .search .submit{
+	width: 75px;
+  height: 45px;
+  background: url(../img/search.png) no-repeat center;
+  background-color: #000;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;                  
+}/*LOGO部分结束*/
+
+
+  /*切换页面的开始*/
+  hr{
+    	background: #000;
+    	height: 2px;
+      width: 100%;
+      border: none;
+    }
+    .nav_change{
+    	position: relative;
+      top: 40px;
+    }
+     .change{
+        width: 1000px;
+        height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .change ul li{
+        width: 120px;
+        height: 40px;
+        float: left;
+        line-height: 60px;
+        cursor: pointer;
+        position: relative;
+    }
+    .nav_change .content{
+        width: 1000px;
+        margin: 0 auto;
+    }
+     .nav_change .content div .public{
+        position: absolute;
+        width: 1000px;
+        height: 500px;
+        border: 1px solid #000;
+    }
+    .nav_change .change li.SortFirst{
+      width: 162px;
+      height: 42px;
+    	line-height: 40px;
+      background-color: #000;
+      color: #fff;
+      font-size: 18px;
+    }
+    .nav_change .change li{
+    	line-height: 40px;
+      font-size: 16px;
+    }/*切换页面结束*/
+
+   
+
+ /*切换页面的第一部分开始*/
+ /*左边产品大小图转换开始*/
+.commodity_change{
+	width: 100%;		
+}
+.commodity_change .commodity_frist{
+  width: 1000px;
+  height: 3200px;
+  margin: 0 auto;
+}
+.commodity_frist .commodity_bottom_title{
+	height: 40px;
+	line-height: 40px;
+}
+.commodity_change .commodity_frist span a{
+	height: 20px;
+  color: #000; 
+  font-size: 12px; 
+/*  font-weight: bold;*/
+}
+.commodity_change .commodity_change_left{
+	float: left;
+  width:  420px;
+  height: 520px;
+}
+.showBox {
+  height: 405px;
+  width: 405px;
+  border:1px solid #ccc;
+  background-image: url(../img/play01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ .minBox li{
+ 	float: left;
+ 	margin-left: 7px;
+ 	margin-top: 20px;
+ 	width: 74px;
+ 	height: 74px;
+ 	border-radius: 2px;
+ 	border: 1px solid gray;
+ 	cursor: pointer;
+  overflow: hidden;
+ }
+ .minBox li#li01{
+  margin-left: 0;
+ }
+ .minBox img{
+ 	width: 100%;
+ 	height: 100%;
+ } /*左边产品大小图转换结束*/
+
+/*右边产品信息开始*/
+.right{
+  width: 550px;
+  height: 405px;
+  float: right;
+  margin-left:5px; 
+  position: relative;
+}
+.ori{
+  width: 550px;
+  height: 65px;
+  position: relative;
+}
+.origin{
+  
+  border-radius: 50%;
+  background-color: lightgray;
+  position: absolute;
+  top: 8px;    
+  left: 0px;
+  width: 18px;
+  height: 18px;
+}
+.right .ori span{
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(153,153,153);
+}
+.ori .remarks{
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-size: 16px;
+  color: rgb(153,153,153);
+}
+.discount{
+  margin-top:10px; 
+  width:550px;
+  height: 90px;
+  background: #F9EBEB;
+  position: relative;
+
+}
+#no_login{
+  width:350px;
+  height: 48px;
+  color: #ffffff;
+  display:block;
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  background: #000000;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 10px; 
+  font-size:15px; 
+}
+#login{
+  display: none;
+}
+
+.discount ul li {
+  width: 110px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  float: left;
+}
+.price{
+  color: #D64E4D;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top:-15px; 
+}
+.discount_amount{
+  margin-top:-60px; 
+  font-size: 14px;
+  font-weight: bold;
+}
+.sale{
+  margin-top:5px; 
+}
+.right .sale span{
+  color: rgb(153,153,153);
+}
+.freight{
+  margin-top:10px;
+  font-weight: bold;
+}
+.delivery{
+  margin-top:10px;
+  color:rgb(153,153,153);
+  font-weight: bold;  
+}
+#amount{
+  margin-top:10px;
+}
+#amount input{
+  width: 38px;
+  height: 32px;
+  font-size: 20px;
+  background: #fff;
+  margin: 0px;
+  border-collapse:collapse;
+}
+input#sub{
+  border-right: 1px solid #ccc;
+  float: left;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  color: #5f5f5f;
+  position: relative;
+  top: 0px;
+}
+#amo{
+  text-align: center;
+  border: 0px;
+  position: relative;
+  left: 8px;
+}
+#add{
+  border-left: 1px solid #ccc;
+  float: right;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  color: #5f5f5f;
+  line-height: 26px;
+}
+.button_box{
+  border: 1px solid rgb(222,222,222);
+  width:134px;
+  height: 32px;
+  position: absolute;
+  left: 50px;
+  display: inline-block;
+}
+.bought{
+  margin-top:20px;
+}
+.bought div{
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-right:20px; 
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#shopping_list {
+  background:#F9EBEB;
+  
+  float: left ;  
+}
+#shopping_list a{
+  color: #D64E4D; 
+}
+#order{
+  background: #CA383D;
+  float: left;
+}
+#order a{color: #fff;}
+#gehe{
+  clear: both;
+}/*右边产品信息结束*/
+
+
+
+/* 商家大盒子div */
+#merchant{
+	width: 1000px;
+	height: 1754px;
+	position: relative;
+	margin: 0 auto;
+
+}
+/*认证店铺块开始*/
+.shop{
+	width: 200px;
+	height: 277px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.top{
+	height: 40px;
+	border-bottom: 1px solid #ccc; 
+	background-color: rgb(252,252,252);
+}
+.top img{
+	float: left;
+	margin: 8px 5px 0 60px; 
+}
+.top p{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 40px;
+}
+.shop .botom .shopName{
+  display: inline-block;
+	width: 200px;
+	height: 55px;
+  font-size: 15px;
+	text-align: center;
+	line-height: 55px;
+	margin: 0 auto;
+}
+.shop .botom p{
+   margin: 0 0 0 10px;
+   line-height: 23px;
+   color: #5f5f5f;
+   font-size: 14px;
+}
+.shop .botom p span{
+  display: inline-block;
+  width: 50px;
+  height: 23px;
+  font-weight: normal;
+}
+.shop .botom a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	text-align: center;
+	line-height: 30px;
+	background-color: rgb(202,56,61);
+	color: #fff;
+	position: relative;
+	top: 20px;
+	left: 50%;
+	margin-left: -50px;
+}/*认证店铺块结束*/
+
+/*商品描述块开始 */
+.goods_describe{
+	width: 790px;
+	height: 1754px;
+	float: left;
+	margin-left: 7px;
+}
+ .goods_describe .description{
+	height: 40px;
+	border: 1px solid #ccc;
+  font-size: 15px;
+  font-weight: bold;
+	background-color: rgb(252,252,252);
+	line-height: 40px;
+	padding-left: 20px;
+  border-bottom: 0;
+}
+.goods_describe .introduce{
+	height: 118px;
+	border-top:0;
+  border: 1px solid #ccc;
+}
+.goods_describe .introduce li{
+	float: left;
+	margin: 27px 80px 0 20px;
+	line-height:28px; 
+  color: #5f5f5f;
+   font-size: 14px; 
+}/*商品描述块结束 */
+
+/*产品图片1*/
+.produce_picture01{
+	width: 790px;
+	height: 620px;
+	background: url(../img/pic01.png) no-repeat;
+	background-size: cover; 
+}
+ /*产品图片2 */
+.produce_picture02{
+	width: 792px;
+	height: 620px;
+	background: url(../img/pic02.png) no-repeat;
+	background-size: cover; 
+}
+/*商品导航条 */
+.arguments_bar{
+	width: 770px;
+	height: 62px;
+	border-radius: 10px;
+	background-color: rgb(103,2,0);
+	line-height: 62px;
+	padding-left: 20px;
+  margin-top: 1px;
+}
+.arguments_bar a{
+  font-size: 30px;
+  color: #fff;
+}
+
+ /*商品描述块底部块 */
+.product{
+	width: 650px;
+	height: 800px;
+  margin: 0 auto;
+	background: #fff; 
+	padding-top:60px;
+}
+
+.product_photo{
+	float: left;
+	width: 193px;
+	height: 360px;
+	border-radius: 7px;
+	background:url(../img/show01.png) no-repeat;
+	background-size: cover; 
+	margin-right: 55px;
+}
+.product_text{
+	font-size: 21px;
+  line-height: 41px;
+}
+.product .product_text ul li{
+	width: 100%;
+	height:100%; 
+}
+/*返回顶部小火箭*/
+.yw_fixed{
+  position: fixed;
+  top: 790px;
+  left: 1452px;
+}

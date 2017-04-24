@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品管理</title>
+   
+    <!-- 顶 + 左 -->
+    <link rel="stylesheet" type="text/css" href="css/yunfei.css" />
+
+    <!-- 翻页 -->
+    <link rel="stylesheet" type="text/css" href="css/fanye.css">
+    
+    <!-- 底 -->
+    <link rel="stylesheet" type="text/css" href="css/bottom.css">
+
+    <!-- 右 -->
+    <link rel="stylesheet" type="text/css" href="css/index1.css">
+    
+    <script type="text/javascript" src="js/common.js"></script>
+
+    <script type="text/javascript" src="js/index1.js"></script>
+
+    <script type="text/javascript" src="js/fanye.js"></script>
+
+    <script type="text/javascript" src="js/father.js"></script>
+
+</head>
+<body>
+
+<!-- 是否下线 弹框 -->
+<div class="pop-up" id="pop_up">
+  <div class="pop-up_bg">
+        <span id="close_all">×</span>
+    <div class="judge">确定要下线该商品吗？</div>
+    <input type="button" name="" value="下线" id="sure">
+    <input type="button" name="" value="取消" id="cancel">
+  </div>
+</div>
+
+    <!-- 导航栏开始 -->
+   <div class="nav_all">
+	   	<div class="nav">
+	   	   <ul>
+		   		<span>您好 欢迎来到找尾贷网！</span>
+		   	   	<li><a href="">13917093349</a></li>
+		   	   	<li><a href="">退出</a></li>
+	   	   </ul>
+	   	   <ol>
+		   	   	<span><a href="javascript:;">关于我们</a></span>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">个人中心</a></li>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">我的进货单</a></li>
+		   	   	<li>|</li>
+		   	   	<li><a href="#">首页</a></li>
+	   	   </ol>
+	   	</div>
+   </div><!-- 导航栏结束 -->
+
+   <!-- 二级导航条开始 -->
+   <div class="zhangzhengguospace">
+   	<div class="space">
+   		<a href=""><h3>找尾货</h3></a>
+         <a href=""><h4 class="veryical_line">|</h4></a>
+   		<a href=""><h4> 个人中心</h4></a>
+   		<div class="procurement"><a href="">我是采购商</a></div>
+   		<div class="provision"><a href="">我是供应商</a></div>
+   	</div>
+   </div>
+   <!-- 二级导航条结束 -->
+
+   <!-- 中间部分开始 -->
+   <div class="center_box">
+   	<div class="center_all">
+   		<!-- 左边开始 -->
+   		<div class="center_left">   			
+   				<ul id="cl_ul">
+   					<li>
+   						<a href="">
+   						<img src="img/yyyyyukkk.png"><p class="p">交易管理</p>
+   						</a>
+   					</li>
+
+   					   <li class="underline">
+   					   	<a href=""><p class="p_">订单管理</p></a>
+   					   </li>
+
+   					   <li>
+   						<a href="">
+   						<img src="img/pupuio.png"><p class="p">商品管理</p>
+   						</a>
+   					  </li>
+
+   					  <li>
+   					   	<a href=""><p class="p_">商品管理</p></a>
+   					  </li>
+
+   					  <li class="underline">
+   					   	<a href=""><p class="p_">添加商品</p></a>
+   					  </li>
+
+   					   <li>
+   						<a href="../运费模板/交易管理/personal pages.html">
+   						<img src="img/yyyyjjjj.png"><p class="p">运费模板</p>
+   						</a>
+   					  </li>
+
+   					   <li class="underline">
+   					   	<a href=""><p class="p_">运费模板管理</p></a>
+   					  </li>
+
+   					  <li>
+   						<a href="">
+   						<img src="img/ppppyyyt.png"><p class="p">资金管理</p>
+   						</a>
+   					  </li>
+
+   					  <li>
+   					   	<a href=""><p class="p_">收入管理</p></a>
+   					  </li>
+
+   					  <li>
+   					   	<a href=""><p class="p_">交易记录</p></a>
+   					  </li>
+
+   					    <li class="underline">
+   					   	<a href=""><p class="p_">保证金管理</p></a>
+   					  </li>
+
+   			         <li>
+   						<a href="">
+   						<img src="img/pupuio.png"><p class="p">账号管理</p>
+   						</a>
+   					  </li>
+
+   					  <li>
+   					   	<a href=""><p class="p_">认证信息</p></a>
+   					  </li>
+
+   					  <li>
+   					   	<a href=""><p class="p_">重置密码</p></a>
+   					  </li>
+
+   					    <li class="underline">
+   					   	<a href=""><p class="p_">更换手机号</p></a>
+   					  </li>
+   				</ul>
+   		</div>
+   		<!-- 左边结束 -->
+    
+    <!-- 中部 右边 -->
+   	<div class="center_right" id="center_right">
+            <!--上部开始-->
+         <div class="center_right_top">
+         <div class="manage" id="manage">
+          <h3>商品管理</h3>
+          <button id="btn">+添加商品</button>
+         </div>
+         <div class="condtion" id="condtion">
+          <span style="border-bottom: 2px black solid" id="onlines">上线中(10)</span>
+          <span>审核中(10)</span>
+          <span>已下线(10)</span>
+          <span>审核失败(10)</span>
+          <span>草稿箱(10)</span>
+         </div>
+         </div>
+      <!--上部结束-->
+      <div id="box" class="ta_box"></div><!--动态列表-->            
+      <div class="ta_box"></div>
+      <div class="ta_box"></div>
+      <div class="ta_box"></div>
+      <div class="ta_box"></div>
+
+  </div>
+    <!--中部右结束-->
+	</div>
+</div>
+   <!-- 中间部分结束 -->
+
+<div class="button_bg">
+<div class="buttons" id="liu_button">
+      <button class="width on1" id="prev" style="color: #666">上一页</button>
+      <span index="1" class="on">1</span>
+      <span index="2">2</span>
+      <span index="3">3</span>
+      <span index="4">4</span>
+      <span index="5">5</span>
+      <button class="width" id="next">下一页</button>
+      <button class="width none" style="color: #666">共五页</button>
+      <button class="none" style="color: #666">跳到第</button>
+      <input type="text/css" class="input" id="input"/>&nbsp;&nbsp;页
+      <button class="width" id="ok">确定</button>
+</div>
+</div>
+
+   <!--服务块内容-->
+   <div class="serve_bar">
+      <div class="serve">
+         <ul>
+            <li>
+               <img src="img/piuyrtre.png" alt="" />
+               <a href="#"><p>实名认证</p></a>
+               <span>真实身份，更有保障</span>
+            </li>
+
+           <li>
+               <img src="img/piuytret.png" alt="" />
+               <a href="#"><p>金牌供应商</p></a>
+               <span>优质货源，更值得信赖</span>
+            </li>
+
+            <li>
+              <img src="img/piuytrehyt.png" alt="" />
+               <a href="#"><p>专业匹配供应</p></a>
+               <span>免费帮你找到最好的货源</span>
+            </li>
+
+            <li>
+              <img src="img/ouytybfr.png" alt="" />
+               <a href="#"><p>专注尾货供应链</p></a>
+               <span>成本和效率的最佳解决方案</span>
+            </li>
+         </ul>
+      </div>
+      
+      <div class="help">
+         <div class="help_logo">
+             <a href="#"><img src="img/pppiupo.png" alt="" /></a>
+             <h2>专注快消尾货供应</h2>
+         </div>
+
+         <dl>
+          <dt>新手入门</dt>
+          <a href=""><dd>注册登陆</dd></a>
+          <a href=""><dd>实名认证</dd></a>
+          <a href=""><dd>用户协议</dd></a>
+         </dl>
+
+         <dl>
+          <dt>帮助中心</dt>
+          <a href=""><dd>常见问题</dd></a>
+          <a href=""><dd>支付方式</dd></a>
+          <a href=""><dd>违规处罚</dd></a>
+        </dl>
+
+        <dl>
+          <dt>招商合作</dt>
+          <a href=""><dd>关于我们</dd></a>
+          <a href=""><dd>供货商招募</dd></a>
+          <a href=""><dd>联系我们</dd></a>
+        </dl>
+         <div class="services">客服热线 : 400-821-5297</div>
+         <div class="mailbox">合作邮箱 : <a href="">lea@saohuo.com</a></div>
+      </div>     
+   </div>
+
+   <!--页面底部内容-->
+   <div class="footer_bar">
+      <div class="footer">
+         Copyright @ 2017 saohuo7.com .All Rights Reserved 扫货版权所有  <a href="http://www.miitbeian.gov.cn/" class="footer_num">沪ICP14045987号</a>
+      </div>
+   </div>
+   <!-- 底部结束 -->
+</body>
+</html>

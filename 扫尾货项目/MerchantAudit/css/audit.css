@@ -1,0 +1,126 @@
+.JHDredge_Success{
+	width:1000px;
+	height:503px;
+	margin: 0 auto;
+	position:relative;
+	font-family: "微软雅黑";
+	display: none;
+}
+.JHDredge_Success .JHDredge_Suc{
+	width:680px;
+	height:140px;
+	font-size:30px;
+	margin:140px auto 0px;
+	color:#cb393d;
+}
+.JHDredge_Success .JHDredge_Suc .True_Pic{
+	width:89px;
+	height:85px;
+	float:left;
+	line-height:85px;
+	padding-top:30px;
+}
+.JHDredge_Success .JHDredge_Suc .JH_Success span{
+	display: block;
+	float:left;
+	padding-top:50px;
+	padding-left:25px;
+}
+.JHskip{
+	width:200px;
+	height:48px;
+	background:#cb393d;
+	margin:10px auto 0px;
+	border-radius:8px;
+	line-height:48px;
+	text-align:center;
+	cursor: pointer;
+	font-size:17px;
+	
+}
+.JHDredge_Success a{
+	text-decoration: none;
+	color:#f7e7e8;
+}
+/*.....................开通成功模块.......................*/
+.JHpayment{
+	width:1000px;
+	height:503px;
+	position:relative;
+}
+.JHpayment .JHpayment_top{
+	width:855px;
+	height:468px;
+	position:absolute;
+	left:60px;
+	top:35px;
+}
+.JHpayment .JHpayment_top p{
+	font-size:14px;
+	
+}
+.JHpayment .JHpayment_top .JHchioce{
+	width:580px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #e3e3e3;
+	color:#272727;
+	padding-bottom:10px;
+}
+.JHpayment .JHpayment_top .JHchioce span{
+	font-size:18px;
+}
+.JHpayment .JHpayment_top .JHpay_way{
+	width: 510px;
+	height:40px;
+	margin-top:35px;
+}
+.JHpayment .JHpayment_top .JHpay_way ul li{
+	width:168px;
+	height:38px;
+	border:1px solid #aaa;
+	float:left;
+	line-height:40px;
+	text-align: center;
+	cursor:pointer;
+	margin-left:-1px;
+}
+.JHdec{
+	background:#999999;
+	color:#efefef;
+}
+.JHpayment .JHpayment_top .JHbank{
+	width:855px;
+	height:150px;
+	margin-top:2px;
+}
+.JHpayment .JHpayment_top .JHbank ul{
+	width:855px;
+}
+.JHpayment .JHpayment_top .JHbank ul li{
+	width:200px;
+	height:58px;
+	float:left;
+	line-height:58px;
+	margin-right:11px;
+	margin-top:15px;
+	cursor:pointer;
+	border:1px solid #e3e3e3;
+}
+.JHpayment .JHpayment_top .JHbank ul li img{
+	width:200px;
+	height:58px;
+}
+.JHpayment .JHpayment_top a{
+	text-decoration: none;
+	color:#efefef;
+}
+.JHpayment .JHpayment_top a .JHend_pay{
+	width:200px;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	margin:50px auto;
+	border-radius:8px;
+	background:#010101;
+}
