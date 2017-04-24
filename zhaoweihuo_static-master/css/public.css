@@ -1,0 +1,290 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym,address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt,var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,tfoot,thead,tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header,hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{/*清除默认样式*/
+  margin: 0;
+  padding: 0;
+}
+ul ,ol , li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input{
+	outline:none;
+}
+body {
+  font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+  overflow-x: hidden;
+}
+             /*导航栏开始*/
+.nav_all {
+	position: relative;
+	height: 34px;
+	width:100%;
+	background-color:#fcfcfc;
+	overflow: hidden;
+}
+.nav_all .nav {
+	position: relative;
+	height: 34px;
+	width:1200px;
+	margin: 0 auto;
+}
+.nav_all .nav ul span {
+	font-size: 12px;
+	color: #313031;
+	float:left;
+	height: 34px;
+	line-height: 34px;
+}
+.nav_all .nav ul li {
+	float:left;
+	text-align: center;
+	line-height:34px;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.nav ul li a {
+	color: #313031;
+	text-decoration: underline;
+}
+.nav_all .nav ol span {
+	float:right;
+	line-height: 34px;
+	font-size: 12px;
+	color: #313031;
+}
+.nav_all .nav ol span a {
+	text-decoration: none;
+	color: #313031;
+}
+.nav_all .nav ol li {
+	float: right;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size: 12px;
+	line-height: 34px;
+}
+.nav_all .nav ol li a {
+	text-decoration: none;
+	color: #313031;
+}
+.nav_all .nav a:hover {
+	color: #e21918;
+}
+      /*导航栏结束*/
+    /*头部开始*/
+.top_all {
+	position: relative;
+	width: 100%;
+}
+.top_all .top {
+	position: relative;
+	height:100px;
+	width:1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.top_all .top a {
+	display: block;
+	width: 180px;
+	height: 90px;
+	float: left;
+}
+.top_all .top img {
+	width: 180px;
+	height: 90px;
+}
+.top_all .top_land {
+	position: relative;
+	float: left;
+	top: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-left: 2px solid #c0c0c0;
+	left: 20px;
+}
+.top_all .top_land span{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	padding-left: 20px;
+}
+    /*头部结束*/
+   /*分隔线样式*/
+.line{
+	width: 100%;
+	height: 2px;
+	background: #010101;
+}
+/*底部服务区块样式*/
+.serve_bar {
+	width: 100%;
+	height: 240px;
+	position: relative;
+}
+
+.serve_bar .serve {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*服务选项样式*/
+.serve_bar .service {
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+
+.serve_bar .service .service_list {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+
+.serve_bar .service .service_list .service_item {
+	float: left;
+	width: 230px;
+	height: 50px;
+	position: relative;
+	margin-left: 55px;
+}
+
+ .serve_bar .service .service_list .service_item span {
+ 	position: absolute;
+ 	width: 40px;
+ 	height: 38px;
+ 	left: 0;
+ 	top: 50%;
+ 	margin-top: -19px;
+ }
+ 
+ .serve_bar .service .service_list .service_item a {
+ 	position: absolute;
+ 	left: 45px;
+ 	top: 0;
+ 	color: #444;
+ 	font-size: 20px;
+ }
+
+
+ .serve_bar .service .service_list .service_item p {
+ 	position: absolute;
+ 	left: 45px;
+ 	bottom: 0;
+ 	color: #838383;
+ 	font-size: 15px;
+ }
+ 
+ /*帮助流程样式*/
+.help {
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+
+.help .help_logo {
+	float: left;
+	width: 240px;
+	position: relative;
+}
+
+.help .help_logo a{
+	width: 120px;
+	height: 120px;
+}
+
+.help .help_logo img {
+	width: 120px;
+	height: 120px;
+}
+.help .help_logo h2 {
+	position: absolute;
+	left: 110px;
+	top: 30px;
+	font-weight: normal;
+}
+.help .help_logo p {
+	position: absolute;
+	left: 110px;
+	bottom: 35px;
+	font-size: 14px;
+}
+.help .help_list {
+	float: left;
+	width: 600px;
+	height: 110px;
+	margin-left: 40px;
+	padding-top: 10px;
+}
+
+.help .help_list dl {
+	float: left;
+	width: 150px;
+	padding-left: 50px;
+}
+
+.help .help_list dl dt {
+	color: #646464;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.help .help_list dl dd a {
+	font-size: 12px;
+	color: #8b8b8b;
+	line-height: 20px;
+	display: block;
+}
+
+.help .help_list dl dd a:hover , .footer_bar .footer .footer_num:hover {
+	color: #e21918;
+}
+
+.help .relation {
+	float: right;
+	margin-top: 30px;
+	position: relative;
+	right: 20px;
+}
+
+.help .relation span{
+	display: block;
+	line-height: 30px;
+	color: #646464;
+	height: 30px;
+}
+
+.help .relation span {
+	display: block;
+}
+/*页面底部样式*/
+.footer_bar {
+	width: 100%;
+	height: 76px;
+	position: relative;
+	background: #010101;
+	overflow: hidden;
+}
+
+.footer_bar .footer {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 76px;
+	color: #838383;
+	font-size: 14px;
+}
+
+.footer_bar .footer .footer_num {
+	color: #838383;
+	display: inline-block;
+}
+/*页面底部样式结束*/

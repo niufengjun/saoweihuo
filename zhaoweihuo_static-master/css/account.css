@@ -1,0 +1,999 @@
+@charset "utf-8";
+/*红色头部样式开始*/
+.lo_head {
+	width: 100%;
+	position: relative;
+	background: #CB393D;
+}
+.lo_head .lo_main {
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	margin: 0 auto;
+	line-height: 70px;
+}
+.lo_head .lo_main ul li {
+	float: left;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.lo_head .lo_main ul li.buyer {
+	margin-left: 120px;
+}
+.lo_head .lo_main ul li.supplier {
+	margin-left: 4px;	
+}
+.lo_head .lo_main ul li.customer {
+	width: 120px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	top: 20px;
+	cursor: pointer;
+}
+.lo_head .lo_main ul li.customer_active {
+	font-size: 18px;
+	border: 1px solid white;
+	font-weight: normal;
+}/*红色头部样式结束*/
+/*中部主体开始*/
+.lo_main_bg {
+	width: 100%;
+	padding: 10px 0 30px;
+	position: relative;
+	background: #F3F3F3;
+}
+.lo_main_bg .lo_menu {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+ 	/*左边菜单栏部分开始*/
+.lo_main_bg .lo_menu .lo_left {
+	display: inline-block;
+	width: 240px;
+	position: relative;
+	vertical-align: top;
+}	
+.lo_main_bg .lo_menu .lo_left ul {
+	width: 240px;
+	position: relative;
+	text-align: center;
+	background: #FFFFFF;	
+}
+.lo_main_bg .lo_menu .lo_left li {
+	font-size: 16px;
+	border: 2px solid #E3E3E3;
+	position: relative;
+	line-height: 50px;
+}
+.lo_main_bg .lo_menu .lo_left li.account_menu {
+	top: 2px;
+}
+.lo_main_bg .lo_menu .lo_left li a {
+	color: #727272;
+}
+.lo_main_bg .lo_menu .lo_left li img {
+	position: relative;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.lo_main_bg .lo_menu .lo_left li ul{
+	border: none;
+	width: 236px;
+}
+.lo_main_bg .lo_menu .lo_left li ul li {
+	border: none;
+	color: #000000;
+	text-align: left;
+	padding-left: 98px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.lo_main_bg .lo_menu .lo_left li ul li.account_active ,.lo_main_bg .lo_menu .lo_left li ul li.account_active a {
+	background: #CB393D;
+	color: #FFFFFF;
+}
+.lo_main_bg .lo_menu .lo_left li ul li a {
+	color: #000000;
+}/*左边菜单栏部分结束*/
+       /*右部详细部分开始*/
+.lo_main_bg .lo_right {
+	display: inline-block;
+	width: 750px;
+	position: relative;
+	background: #FFFFFF;
+	left: 5px;
+}
+		/*更换手机号码部分开始*/
+.lo_right .content {
+	width: 750px;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+}
+
+.lo_right .content .content_title {
+	width: 736px;
+	height: 50px;
+	padding-left: 10px;
+	line-height: 50px;
+	border: 2px solid #e3e3e3;
+	font-size: 20px;
+}
+.lo_right .content .main_content{
+	/*表单填写样式*/
+	width: 736;
+	border: 2px solid #e3e3e3;
+	height: 600px;
+	margin-top: 10px;
+}
+
+.lo_right .content .mian_form {
+	width: 460px;
+	padding-top: 40px;
+	position: absolute;
+	left: 50%;
+	margin-left: -260px;
+	
+}
+
+.lo_right .content .mian_form li {
+	margin-top: 20px;
+	width: 460px;
+	height: 44px;
+	position: relative;
+}
+.lo_right .content .mian_form .fist_item p{
+	/*手机号码样式*/
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	right: 0;
+	font-size: 18px;
+}
+.lo_right .content .mian_form .second_item input {
+	/*验证码输入框*/
+	width: 180px;
+	float: left;
+	position: relative;
+	left: 20px;
+}
+.lo_right .content .mian_form .second_item p {
+	width: 120px;
+	float: right;
+	height: 40px;
+	position: relative;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+}
+
+.lo_right .content .mian_form input ,.sub_next {
+	width: 320px;
+	height: 38px;
+	float: right;
+	outline: none;
+	text-indent: 10px;
+	border: 1px solid darkgray;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		    border-radius: 5px;
+	
+}
+
+.lo_right .content .mian_form .three_item input {
+	/*短信验证码*/
+	width: 180px;
+	position: absolute;
+	right: 140px;
+}
+.lo_right .content .mian_form .three_item .get_code {
+ 	/*获取验证码样式*/
+	width: 122px;
+	height: 40px;
+	background: #cb393c;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	line-height: 38px;
+	color: #eee;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+}
+
+.lo_right .content .mian_form .sub_next {
+	/*点击下一步样式*/
+	width: 322px;
+	background: #010101;
+	font-size: 20px;
+	height: 50px;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+}
+
+.lo_right .content .mian_form span {
+	/*输入框前面文字样式*/
+	display: inline-block;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	text-align: right;
+	float: left;
+	color: #646464;
+}
+
+.lo_right .content .mian_form span i {
+	/* *号样式 */
+	color: #f00;
+	position: relative;
+	right: 2px;
+}
+
+/*手机号码更换成功样式*/
+.lo_right .content .mian_form .change_succeed {
+	width: 320px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	top: 40px;
+	left: 50%;
+	margin-left: -160px;
+}
+
+.lo_right .content .mian_form .change_succeed span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.lo_right .content .mian_form .change_succeed p {
+	color: #CB393C;
+	font-size: 30px;
+	margin-left: 20px;
+	position: absolute;
+	right: 0;
+}/*更换手机号码部分结束*/
+/*待办事项开始*/
+.lo_right .wait_todo {
+	width: 750px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+.lo_right .wait_todo .wait_title {
+	/*待办事项标题*/
+	width: 736px;
+	height: 46px;
+	padding-left: 10px;
+	line-height: 50px;
+	border: 2px solid #e3e3e3;
+	font-size: 18px;
+	
+}
+.lo_right .wait_todo .redister_person {
+	/*完善个人信息*/
+	height: 40px;
+	width: 750px;
+	line-height: 40px;
+	font-size: 14px;
+	position: relative;
+	top: 10px;
+	background: #ebebeb;
+}
+.lo_right .wait_todo .redister_person p {
+	display: inline-block;
+	padding-left: 30px;
+}
+.lo_right .wait_todo .redister_person a {
+	color: #37A6EC;
+}
+.lo_right .wait_todo .redister_person a:hover {
+	color: #E21918;
+}
+.lo_right .wait_todo .wait_content {
+	/*待办事项内容*/
+	width: 746px;
+	height: 600px;
+	border: 2px solid #e3e3e3;
+	border-top: none;
+	margin-top: 5px;
+}
+.lo_right .wait_todo ul {
+	padding: 30px 0px;
+}
+.lo_right .wait_todo ul li {
+	float: left;
+	width: 166px;
+	height: 90px;
+	margin: 0px 10px;
+	position: relative;
+}
+.lo_right .wait_todo ul li span {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -35px;
+}
+.lo_right .wait_todo ul li span img{
+	width: 70px;
+	height: 70px;
+}
+.lo_right .wait_todo ul li p {
+	width: 60px;
+	position: absolute;
+	left: 80px;
+	top: 25px;
+	text-align: center;
+	color: #000000;
+}
+.lo_right .wait_todo .wait_content ul li:hover p{
+	color: #e21918;
+}
+.lo_right .wait_todo ul li p.wait_number{
+	top: 45px;
+}
+/*待办事项结束*/
+/*收货地址开始*/
+.lo_right .receive_address {
+	position: relative;
+	width: 750px;
+	display: none;
+}
+           /*title开始*/
+.lo_right .receive_address .receive_title {
+	height: 50px;
+	width: 746px;
+	border: 2px solid #E3E3E3;
+}
+.lo_right .receive_address .receive_title ul {
+	height: 50px;
+	line-height: 50px;
+}
+.lo_right .receive_address .receive_title ul li:first-child {
+	font-size: 18px;
+	font-weight: 600;
+	float: left;
+	position: relative;
+	left: 10px;
+}
+.lo_right .receive_address .receive_title ul li:last-child a ,.lo_right .receive_address .receive_title ul li:last-child{
+	font-size: 16px;
+	float: right;
+	color: #447FCE;
+	position: relative;
+	right: 10px;
+}/*title结束*/
+			/*中间收货人ul开始*/
+.lo_right .receive_address .receive_man {
+	width: 710px;
+	position: relative;
+	height: 50px;
+	background: #EBEBEB;
+	padding: 0 20px;
+}
+.receive_man ul {
+	height: 50px;
+	line-height: 50px;
+}
+.receive_man ul li {
+	float: left;
+	width: 80px;
+}/*中间收货人ul结束*/
+		/*公共部分*/
+.lo_right .receive_human {
+	/*收货人*/
+	width: 80px;
+}
+.lo_right .detail_address {
+	/*详细地址*/
+	width: 180px;
+	text-align: center;
+	padding: 0 10px;
+}
+.lo_right .link_phone {
+	/*联系电话*/
+	width: 160px;
+	padding-left: 20px;
+}
+.lo_right .operation {
+	/*编辑删除操作*/
+	width: 100px;
+}
+.lo_right .set_address {
+	/*设为默认地址*/
+	cursor: pointer;
+	color: #447FCE;
+} 	
+			/*详细内容开始*/
+.lo_right #address_content {
+	width: 710px;
+	height: 499px;
+	padding: 0 20px;
+	overflow: auto;
+	position: relative;
+}
+.lo_right #address_content ul {
+	height: 99px;
+	overflow: hidden;
+	border-bottom: 1px solid #E3E3E3;
+}
+.lo_right #address_content ul li {
+	height: 100px;
+	font-size: 14px;
+	float: left;
+	position: relative;
+	top: 50%;
+	margin-top: -14px;
+}
+.lo_right #address_content ul li a {
+	color: #447FCE;
+	margin-right: 10px;
+}
+		/*增加或者删除地址开始,放在body下*/
+.add_or_delete {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(126,126,126,0.8);
+	z-index: 1;
+	top: 0;
+	left: 0;
+	display: none;
+}		
+.add_or_delete .delete_operation {/*删除地址开始*/
+	width: 300px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	background: #FFFFFF;
+	margin-top: -100px;
+	margin-left: -150px;
+	display: none;
+}
+.delete_operation a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	font-size: 16px;
+	color: #999999;
+	position: relative;
+	right: 20px;
+}
+.delete_operation p {
+	font-size: 20px;
+	width: 300px;
+	text-align: center;
+	height: 140px;
+	line-height: 140px;
+	color: #000000;
+}
+.delete_operation input {
+	background: #999999;
+	color: #FFFFFF;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 34px;
+	cursor: pointer;
+}
+.delete_operation input:hover {
+	background: #CB393D;
+}/*删除地址结束*/
+.add_or_delete .add_operation {/*增加地址开始*/
+	width: 750px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -375px;
+	margin-top: -100px;
+	background: #FFFFFF;
+	display: none;
+}
+.add_operation a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	font-size: 16px;
+	color: #999999;
+	position: relative;
+	right: 20px;
+}
+.add_operation ul {
+	display: inline-block;
+	width: 450px;
+	height: 160px;
+	position: relative;
+	padding: 20px 0 20px 20px;
+}
+.add_operation ul li {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.add_operation ul li input ,.add_operation ul li select ,.add_operation ul li textarea {
+	border: 1px solid #E3E3E3;
+	outline: none;
+	resize: none;
+	padding-left: 5px;
+}
+.add_operation ul li.addFirstLi span{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+}
+.add_operation ul li.addFirstLi span input {
+	width: 95px;
+	margin-left: 16px;
+	height: 22px;
+	line-height: 22px;
+}
+.add_operation ul li.addFirstLi span.mobile_span {
+	margin-left: 40px;
+}
+.add_operation ul li.addSecondLi select {
+	width: 100px;
+	margin-right: 24px;
+	border-radius: 5px;
+	height: 22px;
+	line-height: 22px;
+}
+.add_operation ul li.addLastLi span>span {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.add_operation ul li.addLastLi span textarea {
+	width: 344px;
+	height: 60px;
+	padding: 5px;
+	margin-left: 4px;
+}
+.add_operation ul#sure_btn {
+	display: inline-block;
+	width: 190px;
+	height: 100px;
+	position: relative;
+	left: -20px;
+	top: -10px;
+}
+.add_operation ul#sure_btn li img {
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.add_operation ul#sure_btn li span#set_default {
+	padding-left: 5px;
+}
+.add_operation ul#sure_btn li input {
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	background: #CB393D;
+	border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.add_operation ul#sure_btn li a {
+	color: #37A6EC;
+	font-size: 14px;
+	position: relative;
+	left: 10px;
+}
+		/*增加地址结束*/
+		/*增加或者删除地址结束*/
+	/*收货地址结束*/
+/*完善信息开始*/
+.lo_right .company_new {
+	width:730px;
+	padding:10px 10px 0px;
+	margin:auto;
+	position:relative;
+	border:2px solid rgb(240,240,240);
+	display: none;
+}
+/*里面上部分公司信息标题*/
+.lo_right .company_new .company_head {
+	border-bottom:1px solid rgb(241,241,241);
+	height:25px;
+	width:750px;
+	line-height:15px;
+	font-weight:bold;
+	position:absolute;
+	left: 0px;
+}
+/*标题右移10像素*/
+.lo_right .company_new .company_head p {
+	margin-left:10px;
+}
+/*里面除标题以外的公司信息全部内容*/
+/*这个内容body盒子*/
+.lo_right .company_new .company_body {
+	margin-top:26px;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+/*里面统一酒红色字体样式*/
+.lo_right .company_new .company_body .color {
+	color:rgb(225,0,150);
+}
+/*每一栏的宽高，下边框*/
+.lo_right .company_new .company_body li {
+	height: 70px;
+	line-height:70px;
+	border-bottom:1px solid rgb(241,241,241);
+}
+/*联系人电话、邮箱、微信下边框2px*/
+.lo_right .company_new #person_number,.lo_right .company_new #mailbox,.lo_right .company_new #wechat {
+	border-bottom: 2px solid rgb(241,241,241);
+}
+/*QQ栏没有边框*/
+.lo_right .company_new #qq {
+	border: 0px;
+}
+/*店铺名称的修改框*/
+.lo_right .company_new #shop_name input,.lo_right .company_new .center.input input {
+	width: 278px;
+	height: 30px;
+	border:1px solid rgb(192,192,192);
+	border-radius: 5px;
+	font-family: "微软雅黑";
+	color: rgb(175,175,175);
+}
+/*整体设置项目栏标题的宽度和左边距*/
+.lo_right .company_new .company_body .item {
+	display: inline-block;
+	width: 90px;
+	margin-right: 20px;
+}
+/*设置所有span左浮动，所有p（也就是项目栏的标题）右浮动，使其行标题对齐*/
+.lo_right .company_new .company_body span {
+	float: left;
+}
+.lo_right .company_new .company_body .item p {
+	float: right;
+}
+/*设置所有的项目栏中间内容部分居中,以及颜色，字体*/
+.lo_right .company_new .company_body .center {
+	width: 580px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: rgb(175,175,175);
+}
+/*链接颜色酒红将其覆盖*/
+.lo_right .company_new .company_body #shop_link #color.center {
+	color:rgb(225,0,150);
+	font-weight: normal;
+}
+/*联系人~QQ栏的中间"——"初始时为加粗的*/
+.lo_right .company_new .company_body ul li span.bold {
+	font-weight: bold;
+}
+/*如果是输入框，就不居中*/
+.lo_right .company_new .company_body .center.input {
+	text-align: left;
+}
+/*如果是"保存"就让字体呈酒红色*/
+.lo_right .company_new .company_body .save {
+	color:rgb(225,0,150);
+	cursor: pointer;
+}
+/*如果是"修改"，就让字体呈现*/
+.lo_right .company_new .company_body .amend{
+	color:rgb(68,106,206);
+	cursor: pointer;
+}
+/*完善结束*/ 
+
+/*个人或公司信息认证开始*/
+.lo_right .real_name_all {
+	position: relative;
+    width: 750px;
+    display: none;
+}
+.lo_right .real_name_all .show_result {
+	width: 750px;
+	position: relative;
+	height: 50px;
+	line-height: 50px;	
+	text-align: center;
+	color: #CB393D;
+	font-size: 16px;
+	display: none;
+}
+.lo_right .real_name_all .real_name {
+	height: 50px;
+	width:740px;
+	border-bottom:2px solid #E3E3E3;
+	padding-left: 10px;
+	font-size:18px;
+	font-weight:bold;
+	line-height: 50px;
+}
+.lo_right .real_name_all .name_message {
+	height:32px;
+	width: 139px;
+	padding-top:20px;
+    padding-left: 20px;
+    line-height:32px;
+    font-size: 15px;
+    color: #808080; 
+}
+.lo_right .real_name_all .mine {
+	height: 32px;
+	width:400px;
+	padding-left: 20px;
+	font-size: 12px;
+	line-height:32px; 
+	position:relative;	
+	display:inline-block;
+}
+.lo_right .real_name_all span {
+	color: red;	
+	display:inline-block;	
+	cursor: pointer;
+}
+.lo_right .real_name_all span#user_type ,.lo_right .real_name_all span#ID_yes ,.lo_right .real_name_all span#ID_no {
+	color: #000000;
+	cursor: default;
+}
+.lo_right .real_name_all .mine .radio {
+    display:inline-block;
+    padding-left:80px;
+    cursor: pointer;
+}
+.lo_right .real_name_all .mine .radio input {
+	position:relative;	
+	top:2px;
+}
+.lo_right .real_name_all .mine .radio .left {
+	margin-left:22px; 	
+}
+.lo_right .real_name_all .inport_all {
+	width: 465px;
+	padding-left:20px;
+	padding-top:20px; 
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+}
+.lo_right .real_name_all .inport_all input ,.lo_right .real_name_all .inport_all select {
+    height:30px;
+    width:313px; 
+    position: relative;
+    left: 65px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.lo_right .real_name_all .inport_all input {
+	border: 2px solid #E3E3E3;
+	position: absolute;
+	left: 153px;
+	top: 30px;
+	height: 34px;
+	line-height: 34px;
+}
+.lo_right .real_name_all .inport_all select {
+	width: 326px;
+	height: 36px;
+}
+.lo_right .real_name_all .upload_all{
+	height:80px;
+	width: 483px;
+	padding-left: 20px;
+	padding-top: 20px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+.lo_right .real_name_all .upload_all .upload {
+	height: 80px;
+	width: 331px;
+	position:relative;
+	top:-15px;
+	left: 134px;
+}
+.lo_right .real_name_all .picture{
+    height: 79px;
+    width: 79px;
+    float: left;
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+}
+.lo_right .real_name_all .picture img {
+	width: 79px;
+	height: 79px;
+}
+.lo_right .real_name_all .upload_all .upload span{
+	height: 20px;
+	width:50px;
+	background-color: #4098EC;
+	text-align: center;
+	line-height: 20px;
+	margin-right:20px;
+	color: #fff;
+	position: relative;
+	left:10px;
+
+}
+.lo_right .real_name_all .upload_all .upload p{
+	font-weight: normal;
+	font-size: 9px;
+	color: #c0c0c0;
+	margin-top:5px;
+	position: relative;
+	left: 10px;
+}
+.lo_right .real_name_all .inport_all .import_one ,.lo_right .real_name_all .inport_all select {
+   position:relative;
+   left:52px;
+   top: 0;
+}
+.lo_right .real_name_all .inport_all .import_two{
+   position:relative;
+   left:40px;
+   top: 0;
+}
+.lo_right .real_name_all .yes{
+	height:48px;
+	width: 328px;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+	position:relative;
+	left:154px;
+	margin: 20px 0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*个人或公司信息认证结束*/
+
+/*实名认证成功开始*/
+.lo_right #success_identity {
+	width:730px;
+	padding:10px;
+	margin:auto;
+	position:relative;
+	display: none;
+}
+/*里面上部分实名认证标题*/
+.lo_right #success_identity .certification_head {
+	border-bottom:2px solid rgb(241,241,241);
+	height:50px;
+	width:750px;
+	line-height:15px;
+	font-weight:bold;
+	position:relative;
+	left: 0px;
+}
+/*标题右移10像素*/
+.lo_right #success_identity .certification_head p {
+	position: relative;
+	height:50px;
+	line-height: 50px;
+	left:10px;
+}
+/*里面除大标题以外的实名认证全部内容*/
+/*全部内容body盒子*/
+.lo_right #success_identity .certification_body {
+	position: relative;
+}
+/*除酒红色认证结果标题以外的其他字体*/
+.lo_right #success_identity .certification_body div.detail_content {
+	font-size:12px;
+	position: relative;
+	top: 10px;
+}
+/*实名认证结果酒红色标题*/
+.lo_right #success_identity .certification_body .cbody_title {
+	font-weight: bold;	
+	color:#CB393D;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+}
+/*1.认证信息和2.账号信息字体*/
+.lo_right #success_identity .certification_body .name_info,
+.lo_right #success_identity .certification_body .bank_info {
+	font-size:14px;
+	height: 42px;
+	display: inline-block;
+ }
+ /*1.和2.小菜单下的每一行*/
+/*普通的文本行*/
+.lo_right #success_identity .certification_body ul li {
+	height: 33px;
+}
+/*既有文本也有图片的行*/
+.lo_right #success_identity .certification_body ul li.img {
+	height: 80px;
+}
+/*每张图片统一大小*/
+.lo_right #success_identity .certification_body ul li.img img {
+	height: 65px;
+	width: 65px;
+}
+/*浮动使其文本和图片在每一栏的一行中显示*/
+.lo_right #success_identity .certification_body ul li p ,
+.lo_right #success_identity .certification_body ul li span {
+	float: left;
+}
+/*所有的"*"号变成酒红色*/
+.lo_right #success_identity .certification_body .symbol {
+	color: #CB393D;
+}
+/*每个行标题统一宽度，使其对齐*/
+.lo_right #success_identity .certification_body ul .item {
+	width:115px;
+}
+/*实名认证成功结束*/  
+.lo_right #identity_tip {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background: rgba(85,85,85,0.8);
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: none;
+}
+.lo_right #identity_tip a {
+	position: relative;
+	float: right;
+	display: block;
+	color: #FFFFFF;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	background: #010101;
+	border-radius: 8px;
+	top: -10px;
+	right: -10px;
+}
+.lo_right #identity_tip img {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 20px;
+}
+.lo_right #identity_tip span {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	left: 40px;
+	top: 20px;
+}
+.lo_right #identity_tip span p.success_title {
+	font-size: 18px;
+}
+       /*右部详细部分结束*/
+/*中部主体结束*/

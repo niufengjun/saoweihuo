@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: rgb(245,245,245);
+}
+/*弹框*/
+/*商品管理弹框*/
+.pop-up{
+	width: 100%;
+	height: 100%;
+    background:rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+}
+
+
+.pop-up_bg{
+	width: 350px;
+    height: 190px;
+    background-color: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin:-125px 0 0 -200px;
+    z-index: 100;
+}
+
+.pop-up_bg span {
+    position: absolute;
+    top:5px;
+    right:10px;
+    width:15px;
+    height:15px;
+    font-size:24px;
+    cursor: pointer;
+}
+
+.pop-up_bg .judge{
+	width: 200px;
+	margin: 50px auto;
+	color: #000;
+	font-size: 20px;
+}
+
+.pop-up_bg  input{
+	float: left;
+	margin-left: 60px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border-radius: 6px;
+	color: #FFF;
+	background-color: #999;
+}
+
+input#sure{
+	background-color: #da0000;
+}
+/*中右的头部开始*/
+.center_right{
+	width: 780px;
+	margin: 0 auto;
+	position: absolute;
+	top: 10px;
+	left: 220px;
+}
+
+.center_right .center_right_top{
+	width: 760px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+.center_right .center_right_top .manage{
+	width: 760px;
+	height: 46px;
+	line-height: 46px;
+	background:white;
+	margin-bottom: 2px;
+	border-bottom: 1px #ccc solid;
+}
+
+#btn{
+	position: relative;
+	top: -43px;
+	margin-right: 15px;
+	color: skyblue;
+	border: none;
+	font-size: 15px;
+	background: transparent;
+	float: right;
+}
+
+.center_right .center_right_top h3{
+	width: 785px;
+	height: 46px;
+    position: relative;
+    left: -1px;
+	padding-left: 15px;
+    border: 1px #ccc solid;
+	background-color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.center_right .center_right_top .condtion{
+	width:  800px;
+	height: 40px;
+	line-height: 40px;
+	background:white;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	position: relative;
+    left: -1px;
+    background-color: rgb(235,235,235);
+	border: 1px #ccc solid;
+}
+
+.center_right .center_right_top .condtion span{
+	display: inline-block;
+	width: 132px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	cursor: pointer;	
+}
+
+/*中右的头部结束*/
+.center_right .ta_box{
+	height: 666px;
+	width:  800px;
+	position: absolute;
+	top: 0px;
+	left: -1px;
+	display: none;	
+}
+			
+#box{
+	width: 780px;
+	height: 666px;
+	position: relative;
+	display: block;
+}
+
+.ta_box .t_t{
+	height: 86px;
+	width: 800px;	
+}
+
+#box table {
+        border-collapse: collapse;
+        border-color: rgb(234,234,234);
+        position: relative;
+        width:  800px;       
+}
+
+.table{
+	padding: 0;
+	margin: 0;
+}
+
+input {
+    width: 20px;
+}
+
+#box{
+	position: relative;
+    top: 10px;
+	width: 800px;
+	height: 660px;
+	background: #fff;
+	border: 1px solid rgb(234,234,234);
+}
+#box table tbody tr{
+    height: 100px;   
+    background: white;
+    position: relative;
+}
+
+#box table tbody tr{
+	padding-right: 15px;
+}
+
+#box table tbody tr td{
+	height: 80px;
+	border: none;
+	border-bottom:  1px #ccc solid;
+}
+
+#box table tbody tr td{
+	padding-left: 20px;
+	font-size: 12px;
+	position: relative;
+	height: 100px;
+}
+
+#box table tbody tr td p{
+	margin-top: 18px;
+	text-align: left;
+	color: #010101;
+	font-family: PingFangSC-Rgular;
+}
+
+#box table tbody tr td span{
+	display: block;
+	text-align: left;
+	color: #5f5f5f;
+	position: relative;
+	top: -30px;
+}
+
+#box table tbody tr td div{
+	font-size: 12px;
+	color: #010101;
+	position: relative;
+	margin-bottom: 10px;
+	font-family: PingFangSC-Rgular;	
+}
+
+#box table thead{
+	padding-left: 25px;
+}
+
+#box table thead tr{
+	margin-bottom: 10px;
+	border: none;
+	background: white;
+}
+
+#box table thead tr th{
+	border: none;
+	font-weight: normal;
+}
+
+#box table tbody tr td .opt{
+	position: relative;
+	top: -5px;
+}
+
+#box table tbody tr td textarea{
+	width: 100px;
+	height: 30px;
+	border: solid 1px #ccc;
+	resize: none;
+}
+
+#box table tbody tr td #tx1{
+	width: 150px;
+	position: relative;
+	top: -10px;
+}
+
+#box table tbody tr td #tx2{
+	height: 15px;
+	position: relative;
+    top: 20px;
+}
+
+#box table tbody tr td #tx3{
+	height: 15px;
+	position: relative;
+    top: 75px;
+}
+
+#box table tbody tr td #tx4{
+	width: 68px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+
+#box table tbody tr td #tx5{
+	width: 68px;
+    height: 25px;
+}
+
+#box table tbody tr td #tx6{
+	width: 40px;
+    height: 25px;
+ } 
+
+#box table tbody tr td #tx7{
+    width: 120px;
+    height: 25px;    
+}
+
+#box table tbody tr td .p1{
+     margin-top: 0;
+}
+
+#p2{
+	color: red;
+}

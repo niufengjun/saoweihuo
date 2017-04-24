@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>果瓣欢迎您！</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/commodity.css"/>
+    <script src="js/common.js"></script>
+    <script type="text/javascript" src="js/commodity.js"></script>
+    <script type="text/javascript" src="js/commodity_change.js"></script>
+</head>
+<body>
+<!-- 导航栏开始 -->
+   <div class="nav_all">
+      <div class="nav">
+         <ul>
+          <span>您好 欢迎来到果瓣！</span>
+            <li><a href="login-index.html">13917093349</a></li>
+            <li><a href="register.html">退出</a></li>
+         </ul>
+         <ol>
+            <span><a href="">关于我们</a></span>
+            <li>|</li>
+            <li><a href="">供应商中心</a></li>
+            <li>|</li>
+            <li><a href="">采购商中心</a></li>
+            <li>|</li>
+            <li><a href="">我的进货单</a></li>
+            <li>|</li>
+            <li><a href="">首页</a></li>
+         </ol>
+      </div>
+   </div><!-- 导航栏结束 -->
+
+    <!-- LOGO部分 -->
+    <div class="logo">
+		<div class="lg">
+			<img src="img/logo.png">
+		</div>
+		<div class="search">
+			<form>
+				<input type="text" class="text">
+                <a class="submit"></a>
+			</form>
+		</div>
+    </div><!--  LOGO部分结束-->
+
+ <!-- 所有分类部分 -->
+<div class="nav_change" id="nav_change">
+    	<div class="change">
+    		<ul>
+    			<li class="SortFirst">所有分类</li>
+    			<li>首页</li>
+    			<li>品牌馆</li>
+    			<li>招聘供应商</li>
+    		</ul>
+    	</div>
+    	<hr/>
+  <div class="content">
+     <div class="SortFirst public" style="">           
+<!-- 左边产品大小图转换开始 -->
+<div class="commodity_change">
+   <div class="commodity_frist">  
+        <div class="commodity_bottom_title">
+            <span> <a href="">首页</a><a href=""> &gt; 一级项目</a><a href=""> &gt; 二级项目</a></span>
+        </div>
+        <div class="commodity_change_left">
+            <div class="showBox" id="showBox"></div>  <!-- 显示大图	 -->
+                 <div  class="minBox"><!-- 小图图标 -->
+           	        <ul>
+                       <li id="li01"><img src="img/play01.png" alt="图片"/></li>
+                       <li id="li02"><img src="img/play02.png" alt="图片"/></li>
+                       <li id="li03"><img src="img/play03.png" alt="图片"/></li>
+                       <li id="li04"><img src="img/play04.png" alt="图片"/></li>
+                       <li id="li05"><img src="img/play05.png" alt="图片"/></li>
+                    </ul>
+                </div><!-- 小图图标结束 -->
+        </div>
+        <!-- 左边产品大小图转换结束 -->
+
+     <!-- 右边产品信息开始 -->
+     <div class = "right">
+        <h1 style="font-size:18px;font-weight:bold">这个是商品名称</h1>
+        <div class="ori">
+           <div class= "origin"></div>
+           <span>这个是产地</span>
+           <p class = "remarks">这里是备注真的是备注真的是备注</p>
+        </div>
+        <div class= "discount">
+        <a id="no_login" >登录查看供应商联系方式</a>
+        <ul id="login">
+            <li><p class="price"><span style="font-size: 16px;color:#D64E4D">￥</span>99.99</p><p class="discount_amount">1~5件</p></li>
+            <li><p class="price"><span style="font-size: 16px;color:#D64E4D">￥</span>99.99</p><p class="discount_amount">1~5件</p></li>
+            <li><p class="price"><span style="font-size: 16px;color:#D64E4D">￥</span>99.99</p><p class="discount_amount">1~5件</p></li>
+            <li><p class="price"><span style="font-size: 16px;color:#D64E4D">￥</span>99.99</p><p class="discount_amount">1~5件</p></li>
+            <li><p class="price"><span style="font-size: 16px;color:#D64E4D">￥</span>99.99</p><p class="discount_amount">1~5件</p></li>
+        </ul>
+        </div>
+     <div class="sale"><span>市场价：<span>188.88</span></span>&nbsp;&nbsp;<span style="color:#D64E4D">建议零售价：<span>188.88</span></span></div>
+     <div class="freight">运费：包邮/订单满<span>1000</span>元包邮</div>
+     <div class="delivery">货期：下单后3—5个工作日内发货</div>
+     <div id="amount">
+        <span style="line-height: 32px">数量</span>
+        <div class="button_box">
+           <input id="sub" type="button" name="sub" value="—" style="font-size:16px;font-weight: bold;">
+           <input id="amo" type="text" name="amo" value=" ">
+           <input id="add" type="button" name="add" value="+" style="font-size:30px;">
+        </div>
+        <span style="color: gray;margin: 170px;">库存1000件</span>
+     </div>
+       <div class="bought">
+           <div id="shopping_list"><a href="">加入进货单</a></div>
+           <div id="order"><a href="">立即购买</a></div>
+       </div>
+       <p class="warm_prompt" style="color:gray;margin-top:82px;">温馨提示：果瓣网商品非质量问题不支持无理由退换货</p>
+     </div>
+     <div id="gehe"></div>
+    <!-- 右边产品信息结束 -->
+
+   <div id="merchant"><!-- 商家大盒子-->
+     <!-- 认证店铺块开始 -->
+     <div class="shop">
+          <div class="top">
+             <img src="img/safe.png">
+             <p>认证商家</p>
+          </div>
+          <div class="botom">
+         	  <span class="shopName">onitsukatiger店铺</span>
+           	<p>经营品牌：卡乐比 U100</p>
+         	  <pre><P>店铺描述：好吃便宜的各种品
+                 牌应有尽有</P></pre>
+           	<p>所在地区：江苏 南京</p>
+            <p style="margin-left:40px">QQ：1234567890</p>
+         	  <a href="">进店逛逛</a>
+           </div>	
+     </div><!-- 认证店铺块结束 -->
+     
+     <!-- 商品描述块开始-->
+     <div class="goods_describe">
+     	<div class="description">商品描述</div>
+     	<div class="introduce">
+     		<ul>
+     			<li>
+     			   <p>产地：英国</p>
+     			   <p>重量：原味三袋装</p>
+     			   <p>商品成分：麦片 米粉 水</p>
+     			</li>
+     			<li>
+     			   <p>品牌：可乐比</p>
+     			   <p>最佳赏味期：1092天</p>
+     			   <p>储存方法：阴凉干燥处存放</p>
+     			</li>
+     			<li>
+     			   <p>规格：1092天</p>
+     			   <p>生产日期：2015-9-12</p>
+     			</li>
+     		</ul>
+     	</div> <!-- 商品描述图片块结束 -->
+        
+     	<div class="produce_picture01"></div><!-- 产品图片1 -->
+     	<div class="produce_picture02"></div><!-- 产品图片2 -->
+     	<div class="arguments_bar"><a href="">宝贝参数</a></div><!-- 商品导航条 -->
+
+        <!-- 商品描述块底部块 -->
+     	<div class="product">
+     		<div class="product_photo"></div><!-- 左边图片块 -->
+     		<div class="product_text"><!-- 右边文本块 -->
+     			<ul>
+     				<pre><li>品     牌  :  英国Dorst cereals</li></pre>
+     				<li>产品名称：多塞特谷牌蔓越莓樱桃杏仁麦片</li>
+     				<li>原 产 国：英国</li>
+     				<pre><li>成分介绍：干果和坚果40%(葡萄干、烤葡
+                  萄干、杏仁、东樱桃干)、燕麦片、
+                  小麦片、大麦片、考麦芽片、葵花
+                  籽4%</pre>
+                    </li>
+     				<li>净 含 量：540g</li>
+     				<li>保 质 期：一年</li>
+     			</ul>
+     		</div>
+     	</div>
+     </div>  
+  </div> 
+  </div> 
+ </div>  
+</div>
+        <!--  剩余三个切换页面部分 --> 
+    		<div class="public" style="display: none;">这是首页页面</div>
+    		<div class="public" style="display: none;">这是品牌馆页面</div>
+        <div class="public" style="display: none;">这是招聘供应商页面</div>
+   </div>
+</div>
+    <!-- 返回顶部小火箭开始 -->
+    <div class="yw_fixed">
+          <div><a class="first_a" href=""><img width="55" height="55" src="img/cart.png" alt=""></a></div> 
+          <div><a href="" ><img width="55" height="55" src="img/totop.png" alt=""></a></div>
+    </div> <!-- 返回顶部小火箭结束 --> 
+</body>
+</html>
